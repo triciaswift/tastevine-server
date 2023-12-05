@@ -10,4 +10,3 @@ urlpatterns = [
     path('register', register_user),
     path('admin/', admin.site.urls)
 ]
-
