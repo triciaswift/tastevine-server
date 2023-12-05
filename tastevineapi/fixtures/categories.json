@@ -1,0 +1,44 @@
+[
+  {
+    "model": "tastevineapi.category",
+    "pk": 1,
+    "fields": {
+      "label": "Appetizers"
+    }
+  },
+  {
+    "model": "tastevineapi.category",
+    "pk": 2,
+    "fields": {
+      "label": "Breakfast"
+    }
+  },
+  {
+    "model": "tastevineapi.category",
+    "pk": 3,
+    "fields": {
+      "label": "Lunch"
+    }
+  },
+  {
+    "model": "tastevineapi.category",
+    "pk": 4,
+    "fields": {
+      "label": "Sides"
+    }
+  },
+  {
+    "model": "tastevineapi.category",
+    "pk": 5,
+    "fields": {
+      "label": "Dinner"
+    }
+  },
+  {
+    "model": "tastevineapi.category",
+    "pk": 6,
+    "fields": {
+      "label": "Desserts"
+    }
+  }
+]

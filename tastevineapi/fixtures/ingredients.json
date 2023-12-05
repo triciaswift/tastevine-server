@@ -1,0 +1,555 @@
+[
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 1,
+    "fields": {
+      "name": "pumpkin puree"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 2,
+    "fields": {
+      "name": "brown sugar"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 3,
+    "fields": {
+      "name": "canola oil"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 4,
+    "fields": {
+      "name": "maple syrup"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 5,
+    "fields": {
+      "name": "whole milk"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 6,
+    "fields": {
+      "name": "flour"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 7,
+    "fields": {
+      "name": "baking soda"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 8,
+    "fields": {
+      "name": "baking powder"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 9,
+    "fields": {
+      "name": "salt"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 10,
+    "fields": {
+      "name": "cinnamon"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 11,
+    "fields": {
+      "name": "nutmeg"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 12,
+    "fields": {
+      "name": "cloves"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 13,
+    "fields": {
+      "name": "ground ginger"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 14,
+    "fields": {
+      "name": "cold butter"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 15,
+    "fields": {
+      "name": "Kings Hawaiian Rolls"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 16,
+    "fields": {
+      "name": "deli meat"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 17,
+    "fields": {
+      "name": "swiss cheese, grated"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 18,
+    "fields": {
+      "name": "butter"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 19,
+    "fields": {
+      "name": "honey mustard"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 20,
+    "fields": {
+      "name": "dried parsley"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 21,
+    "fields": {
+      "name": "garlic powder"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 22,
+    "fields": {
+      "name": "onion powder"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 23,
+    "fields": {
+      "name": "Kerrygold salted butter"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 24,
+    "fields": {
+      "name": "sugar"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 25,
+    "fields": {
+      "name": "eggs"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 26,
+    "fields": {
+      "name": "vanilla extract"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 27,
+    "fields": {
+      "name": "fine sea salt"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 28,
+    "fields": {
+      "name": "Heath milk chocolate toffee bits"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 29,
+    "fields": {
+      "name": "flaky salt"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 30,
+    "fields": {
+      "name": "light brown sugar"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 31,
+    "fields": {
+      "name": "pear slices"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 32,
+    "fields": {
+      "name": "goat cheese"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 33,
+    "fields": {
+      "name": "cream cheese"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 34,
+    "fields": {
+      "name": "pomegranate seeds"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 35,
+    "fields": {
+      "name": "prosciutto"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 36,
+    "fields": {
+      "name": "Raisin Rosemary Crisps"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 37,
+    "fields": {
+      "name": "fig jam"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 38,
+    "fields": {
+      "name": "olive oil"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 39,
+    "fields": {
+      "name": "garlic"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 40,
+    "fields": {
+      "name": "Yukon gold potatoes"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 41,
+    "fields": {
+      "name": "pepper"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 42,
+    "fields": {
+      "name": "red pepper flakes"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 43,
+    "fields": {
+      "name": "yellow onion"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 44,
+    "fields": {
+      "name": "salted butter"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 45,
+    "fields": {
+      "name": "heavy whipping cream"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 46,
+    "fields": {
+      "name": "Better than Bouillon chicken base"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 47,
+    "fields": {
+      "name": "sour cream"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 48,
+    "fields": {
+      "name": "grated parmesan cheese"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 49,
+    "fields": {
+      "name": "rotisserie chicken"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 50,
+    "fields": {
+      "name": "red onion"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 51,
+    "fields": {
+      "name": "red bell pepper"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 52,
+    "fields": {
+      "name": "jalapeno"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 53,
+    "fields": {
+      "name": "corn"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 54,
+    "fields": {
+      "name": "chicken stock"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 55,
+    "fields": {
+      "name": "chicken bouillon granules"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 56,
+    "fields": {
+      "name": "ancho chili powder"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 57,
+    "fields": {
+      "name": "cumin"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 58,
+    "fields": {
+      "name": "paprika"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 59,
+    "fields": {
+      "name": "spinach"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 60,
+    "fields": {
+      "name": "salsa"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 61,
+    "fields": {
+      "name": "black beans"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 62,
+    "fields": {
+      "name": "avocado"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 63,
+    "fields": {
+      "name": "flour tortillas"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 64,
+    "fields": {
+      "name": "shredded mexican cheese"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 65,
+    "fields": {
+      "name": "boneless skinless chicken thighs"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 66,
+    "fields": {
+      "name": " Good Season's Zesty Italian dressing mix"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 67,
+    "fields": {
+      "name": "shallots"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 68,
+    "fields": {
+      "name": "dry white wine"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 69,
+    "fields": {
+      "name": "sundried tomatoes"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 70,
+    "fields": {
+      "name": "bacon"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 71,
+    "fields": {
+      "name": "petite diced tomatoes"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 72,
+    "fields": {
+      "name": "large shrimp"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 73,
+    "fields": {
+      "name": "green onions"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 74,
+    "fields": {
+      "name": "grits"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 75,
+    "fields": {
+      "name": "polenta"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 76,
+    "fields": {
+      "name": "sesame oil"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 77,
+    "fields": {
+      "name": "low sodium soy sauce"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 78,
+    "fields": {
+      "name": "rice vinegar"
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 79,
+    "fields": {
+      "name": "chili paste"
+    }
+  }
+]
