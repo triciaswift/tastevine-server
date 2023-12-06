@@ -6,6 +6,7 @@ from django.db import IntegrityError
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.authtoken.models import Token
+from django.contrib.auth import authenticate
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
@@ -35,6 +36,27 @@ def register_user(request):
     
         token = Token.objects.create(user=new_user)
         data = { 'token': token.key }
-        return Response(data)
+        return Response(data, status=status.HTTP_201_CREATED)
         
     return Response({'message': 'You must provide email, password, first_name, and last_name'}, status=status.HTTP_400_BAD_REQUEST)
+
+@api_view(['POST'])
+@permission_classes([AllowAny])
+def login_user(request):
+    '''Handles the authentication of a user
+    
+    Method arguments:
+    request -- The full HTTP request object'''
+
+    email = request.data['email']
+    password = request.data['password']
+
+    authenticated_user = authenticate(username=email, password=password)
+
+    if authenticated_user is not None:
+        token = Token.objects.get(user=authenticated_user)
+
+        data = {'token': token.key}
+        return Response(data, status=status.HTTP_200_OK)
+    else: 
+        return Response({'error': 'Invalid Credentials'}, status=status.HTTP_400_BAD_REQUEST)
