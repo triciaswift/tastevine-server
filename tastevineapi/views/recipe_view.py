@@ -16,8 +16,14 @@ class RecipeView(ViewSet):
         Returns:
             Response -- JSON serialized array
         """
+
+        owner_only = self.request.query_params.get("owner", None)
+
         try:
             recipes = Recipe.objects.all()
+
+            if owner_only is not None and owner_only == 'current':
+                recipes = recipes.filter(author=request.auth.user)
             serializer = RecipeSerializer(recipes, many=True)
             return Response(serializer.data, status=status.HTTP_200_OK)
         except Exception as ex:
