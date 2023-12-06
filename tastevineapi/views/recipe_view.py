@@ -136,8 +136,6 @@ class RecipeView(ViewSet):
         except Exception as ex:
             return HttpResponseServerError(ex)
 
-        return Response(None, status=status.HTTP_204_NO_CONTENT)
-
 class UserSerializer(serializers.ModelSerializer):
     """JSON serializer for user"""
     class Meta:
