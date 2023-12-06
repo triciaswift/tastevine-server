@@ -14,7 +14,7 @@ class RecipeView(ViewSet):
         """Handle GET requests for all recipes
 
         Returns:
-            Response -- JSON serialized array
+            Response -- JSON serialized list of recipes
         """
 
         owner_only = self.request.query_params.get("owner", None)
@@ -28,6 +28,19 @@ class RecipeView(ViewSet):
             return Response(serializer.data, status=status.HTTP_200_OK)
         except Exception as ex:
             return HttpResponseServerError(ex)
+        
+    def retrieve(self, request, pk=None):
+        """Handle GET requests for single recipe
+
+        Returns:
+            Response -- JSON serialized recipe record
+        """
+        try:
+            recipe = Recipe.objects.get(pk=pk)
+            serializer = RecipeSerializer(recipe)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        except Exception as ex:
+            return Response({"reason": ex.args[0]}, status=status.HTTP_400_BAD_REQUEST)
 
 
 class RecipeSerializer(serializers.ModelSerializer):
