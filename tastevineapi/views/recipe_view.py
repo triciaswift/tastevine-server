@@ -6,7 +6,6 @@ from django.contrib.auth.models import User
 from tastevineapi.models import Recipe, RecipeIngredient
 from .category_view import CategorySerializer
 from .recipe_ingredient_view import RecipeIngredientSerializer
-from .ingredient_view import IngredientSerializer
 
 class RecipeView(ViewSet):
     """Recipe view set"""
@@ -128,13 +127,32 @@ class RecipeView(ViewSet):
                 serializer = RecipeSerializer(recipe, many=False)
                 return Response(serializer.data, status=status.HTTP_204_NO_CONTENT)
 
-            return Response({"message": "You are not the author of this post."}, status=status.HTTP_403_FORBIDDEN)
+            return Response({"message": "You are not the author of this recipe."}, status=status.HTTP_403_FORBIDDEN)
         
         except Recipe.DoesNotExist:
             return Response(None, status=status.HTTP_404_NOT_FOUND)
 
         except Exception as ex:
             return HttpResponseServerError(ex)
+        
+    def destroy(self, request, pk=None):
+        """Handle DELETE requests for a single item
+
+        Returns:
+            Response -- 200, 404, or 500 status code
+        """
+        try:
+            recipe = Recipe.objects.get(pk=pk)
+            if recipe.author.id == request.user.id:
+                recipe.delete()
+                return Response(None, status=status.HTTP_204_NO_CONTENT)
+            return Response({"message": "You are not the author of this recipe."}, status=status.HTTP_403_FORBIDDEN)
+
+        except Recipe.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+
+        except Exception as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 class UserSerializer(serializers.ModelSerializer):
     """JSON serializer for user"""
