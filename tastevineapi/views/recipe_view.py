@@ -5,6 +5,7 @@ from rest_framework.viewsets import ViewSet
 from django.contrib.auth.models import User
 from tastevineapi.models import Recipe, RecipeIngredient
 from .category_view import CategorySerializer
+from .recipe_ingredient_view import RecipeIngredientSerializer
 from .ingredient_view import IngredientSerializer
 
 class RecipeView(ViewSet):
@@ -91,6 +92,49 @@ class RecipeView(ViewSet):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         except Exception as ex:
             return Response({"reason": ex.args[0]}, status=status.HTTP_400_BAD_REQUEST)
+        
+    def update(self, request, pk=None):
+        """Handle PUT requests for recipes
+
+        Returns:
+            Response -- JSON serialized representation of updated recipe
+        """
+        try:
+            recipe = Recipe.objects.get(pk=pk)
+
+            if recipe.author.id == request.user.id:
+                recipe.title = request.data["title"]
+                recipe.instructions = request.data["instructions"]
+                recipe.image = request.data["image"]
+                recipe.author = request.auth.user
+                recipe.save()
+
+                #? Ingredients:
+                ingredient_data = request.data.get("ingredients", [])
+                ingredient_ids = [ingredient.get('ingredient') for ingredient in ingredient_data]
+                recipe.ingredients.set(ingredient_ids)
+                for ingredient in ingredient_data:
+                    recipe_ingredient = RecipeIngredient.objects.get(recipe__id=recipe.id, ingredient__id=ingredient['ingredient'])
+                    quantity = ingredient['quantity']
+                    unit = ingredient['unit']
+                    recipe_ingredient.quantity = quantity
+                    recipe_ingredient.unit = unit
+                    recipe_ingredient.save()
+
+                #? Categories:
+                category_ids = request.data.get("categories", [])
+                recipe.categories.set(category_ids)
+
+                serializer = RecipeSerializer(recipe, many=False)
+                return Response(serializer.data, status=status.HTTP_204_NO_CONTENT)
+
+            return Response({"message": "You are not the author of this post."}, status=status.HTTP_403_FORBIDDEN)
+        
+        except Recipe.DoesNotExist:
+            return Response(None, status=status.HTTP_404_NOT_FOUND)
+
+        except Exception as ex:
+            return HttpResponseServerError(ex)
 
 class UserSerializer(serializers.ModelSerializer):
     """JSON serializer for user"""
@@ -101,9 +145,9 @@ class UserSerializer(serializers.ModelSerializer):
 class RecipeSerializer(serializers.ModelSerializer):
     """JSON serializer for recipe"""
     author = UserSerializer(many=False)
-    ingredients = IngredientSerializer(many=True)
+    recipe_ingredient = RecipeIngredientSerializer(many=True)
     categories = CategorySerializer(many=True)
 
     class Meta:
         model = Recipe
-        fields = ('id', 'title', 'author', 'publication_date', 'image', 'instructions', 'ingredients', 'categories',)
+        fields = ('id', 'title', 'author', 'publication_date', 'image', 'instructions', 'recipe_ingredient', 'categories',)
