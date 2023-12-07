@@ -5,8 +5,12 @@ from .ingredient_view import IngredientSerializer
 
 class RecipeIngredientSerializer(serializers.ModelSerializer):
     """JSON serializer for ingredient"""
-    ingredient = IngredientSerializer(many=False)
+    measurement = serializers.SerializerMethodField()
+
+    def get_measurement(self, obj):
+        ingredient = obj.ingredient
+        return f'{obj.quantity} {obj.unit} {ingredient.name}'
 
     class Meta:
         model = RecipeIngredient
-        fields = ('ingredient', 'quantity', 'unit',)
+        fields = ('measurement',)
