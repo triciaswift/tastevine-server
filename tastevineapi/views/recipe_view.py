@@ -17,12 +17,12 @@ class RecipeView(ViewSet):
             Response -- JSON serialized list of recipes
         """
 
-        owner_only = self.request.query_params.get("owner", None)
+        user_only = self.request.query_params.get("user", None)
 
         try:
             recipes = Recipe.objects.all().order_by("-publication_date")
 
-            if owner_only is not None and owner_only == 'current':
+            if user_only is not None and user_only == 'current':
                 recipes = recipes.filter(author=request.auth.user)
             
             for recipe in recipes:
