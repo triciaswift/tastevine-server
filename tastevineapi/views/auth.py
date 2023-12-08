@@ -35,7 +35,7 @@ def register_user(request):
             return Response({'message': 'An account with that email already exists'}, status=status.HTTP_400_BAD_REQUEST)
     
         token = Token.objects.create(user=new_user)
-        data = { 'token': token.key }
+        data = { 'token': token.key, 'userId': token.user.id }
         return Response(data, status=status.HTTP_201_CREATED)
         
     return Response({'message': 'You must provide email, password, first_name, and last_name'}, status=status.HTTP_400_BAD_REQUEST)
@@ -56,7 +56,7 @@ def login_user(request):
     if authenticated_user is not None:
         token = Token.objects.get(user=authenticated_user)
 
-        data = {'token': token.key}
+        data = {'token': token.key, 'userId': token.user.id}
         return Response(data, status=status.HTTP_200_OK)
     else: 
         return Response({'error': 'Invalid Credentials'}, status=status.HTTP_400_BAD_REQUEST)

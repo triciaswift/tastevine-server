@@ -9,7 +9,7 @@ class CategorySerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Category
-        fields = ('label',)
+        fields = ('id', 'label',)
 
 class CategoryView(ViewSet):
     """Category view set"""

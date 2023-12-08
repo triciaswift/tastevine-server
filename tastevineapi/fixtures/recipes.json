@@ -36,7 +36,7 @@
     "model": "tastevineapi.recipe",
     "pk": 4,
     "fields": {
-      "title": "Maple Cinnamon Whipped",
+      "title": "Maple Cinnamon Whipped Goat Cheese",
       "instructions": "Place room temp goat cheese + cream cheese into a food processor. | Add in cinnamon, maple syrup, and vanilla. | Pulse until you get a smooth, whipped texture. | Spoon onto a platter, and garnish with pomegranate seeds. | Finish by dusting with cinnamon and drizzling with maple syrup over the top. | Serve with pear slices, Raisin Rosemary Crisps, prosciutto, and fig jam.",
       "image": null,
       "publication_date": "2023-09-17",

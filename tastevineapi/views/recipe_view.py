@@ -1,8 +1,11 @@
 from django.http import HttpResponseServerError
+from django.contrib.auth.models import User
+from django.core.files.base import ContentFile
 from rest_framework import serializers, status
 from rest_framework.response import Response
 from rest_framework.viewsets import ViewSet
-from django.contrib.auth.models import User
+import uuid
+import base64
 from tastevineapi.models import Recipe, RecipeIngredient
 from .category_view import CategorySerializer
 from .recipe_ingredient_view import RecipeIngredientSerializer
@@ -54,8 +57,14 @@ class RecipeView(ViewSet):
             Response -- JSON serialized representation of newly created recipe
         """
         recipe = Recipe()
+
+        # format, imgstr = request.data["game_image"].split(';base64,')
+        # ext = format.split('/')[-1]
+        # data = ContentFile(base64.b64decode(imgstr), name=f'{request.data["game_id"]}-{uuid.uuid4()}.{ext}')
+
         recipe.title = request.data["title"]
         recipe.instructions = request.data["instructions"]
+        # recipe.image = data
         recipe.image = request.data["image"]
         recipe.author = request.auth.user
 
@@ -158,7 +167,7 @@ class UserSerializer(serializers.ModelSerializer):
     """JSON serializer for user"""
     class Meta:
         model = User
-        fields = ('first_name',)
+        fields = ('id', 'first_name',)
 
 class RecipeSerializer(serializers.ModelSerializer):
     """JSON serializer for recipe"""
