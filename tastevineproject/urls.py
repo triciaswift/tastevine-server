@@ -1,7 +1,7 @@
 from django.urls import include, path
-from django.conf.urls.static import static
-from rest_framework import routers
 from tastevineapi.views import register_user, login_user, RecipeView, IngredientView, CategoryView
+from rest_framework import routers
+from django.conf.urls.static import static
 from . import settings
 
 router = routers.DefaultRouter(trailing_slash=False)
