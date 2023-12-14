@@ -7,7 +7,7 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 2,
-    "fields": { "recipe": 1, "ingredient": 2, "quantity": "1/2", "unit": "c" }
+    "fields": { "recipe": 1, "ingredient": 2, "quantity": "1", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -27,7 +27,7 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 6,
-    "fields": { "recipe": 1, "ingredient": 6, "quantity": "2", "unit": "c" }
+    "fields": { "recipe": 1, "ingredient": 6, "quantity": "2 1/2", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -47,7 +47,12 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 10,
-    "fields": { "recipe": 1, "ingredient": 10, "quantity": "2", "unit": "tsp" }
+    "fields": {
+      "recipe": 1,
+      "ingredient": 10,
+      "quantity": "3 1/2",
+      "unit": "tsp"
+    }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -83,26 +88,6 @@
     "model": "tastevineapi.recipeingredient",
     "pk": 14,
     "fields": { "recipe": 1, "ingredient": 14, "quantity": "5", "unit": "TB" }
-  },
-  {
-    "model": "tastevineapi.recipeingredient",
-    "pk": 15,
-    "fields": { "recipe": 1, "ingredient": 6, "quantity": "1/2", "unit": "c" }
-  },
-  {
-    "model": "tastevineapi.recipeingredient",
-    "pk": 16,
-    "fields": { "recipe": 1, "ingredient": 2, "quantity": "1/2", "unit": "c" }
-  },
-  {
-    "model": "tastevineapi.recipeingredient",
-    "pk": 17,
-    "fields": {
-      "recipe": 1,
-      "ingredient": 10,
-      "quantity": "1 1/2",
-      "unit": "tsp"
-    }
   },
   {
     "model": "tastevineapi.recipeingredient",

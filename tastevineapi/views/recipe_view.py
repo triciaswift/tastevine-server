@@ -31,7 +31,7 @@ class RecipeView(ViewSet):
             for recipe in recipes:
                 recipe.publication_date = recipe.publication_date.strftime("%m-%d-%Y")
             
-            serializer = RecipeSerializer(recipes, many=True)
+            serializer = RecipeSerializer(recipes, many=True, context={"request": request})
             return Response(serializer.data, status=status.HTTP_200_OK)
         except Exception as ex:
             return HttpResponseServerError(ex)
@@ -112,14 +112,17 @@ class RecipeView(ViewSet):
         try:
             recipe = Recipe.objects.get(pk=pk)
 
-            format, imgstr = request.data["image"].split(';base64,')
-            ext = format.split('/')[-1]
-            data = ContentFile(base64.b64decode(imgstr), name=f'{pk}-{uuid.uuid4()}.{ext}')
-
             if recipe.author.id == request.user.id:
+                if "http" in request.data["image"]:
+                    recipe.image = recipe.image
+                else:
+                    format, imgstr = request.data["image"].split(';base64,')
+                    ext = format.split('/')[-1]
+                    data = ContentFile(base64.b64decode(imgstr), name=f'{pk}-{uuid.uuid4()}.{ext}')
+                    recipe.image = data
+
                 recipe.title = request.data["title"]
                 recipe.instructions = request.data["instructions"]
-                recipe.image = data
                 recipe.author = request.auth.user
                 recipe.save()
 
@@ -169,7 +172,7 @@ class RecipeView(ViewSet):
         except Exception as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
-class UserSerializer(serializers.ModelSerializer):
+class RecipeUserSerializer(serializers.ModelSerializer):
     """JSON serializer for user"""
     class Meta:
         model = User
@@ -177,7 +180,7 @@ class UserSerializer(serializers.ModelSerializer):
 
 class RecipeSerializer(serializers.ModelSerializer):
     """JSON serializer for recipe"""
-    author = UserSerializer(many=False)
+    author = RecipeUserSerializer(many=False)
     ingredient_measurements = RecipeIngredientSerializer(many=True)
     categories = CategorySerializer(many=True)
 
