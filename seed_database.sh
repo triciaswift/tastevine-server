@@ -12,3 +12,4 @@ python3 manage.py loaddata categories
 python3 manage.py loaddata recipes
 python3 manage.py loaddata recipecategories
 python3 manage.py loaddata recipeingredients
+python3 manage.py loaddata favorites

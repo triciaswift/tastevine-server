@@ -1,0 +1,27 @@
+[
+  {
+    "model": "tastevineapi.favorite",
+    "pk": 1,
+    "fields": { "recipe": 1, "user": 5 }
+  },
+  {
+    "model": "tastevineapi.favorite",
+    "pk": 2,
+    "fields": { "recipe": 2, "user": 4 }
+  },
+  {
+    "model": "tastevineapi.favorite",
+    "pk": 3,
+    "fields": { "recipe": 3, "user": 2 }
+  },
+  {
+    "model": "tastevineapi.favorite",
+    "pk": 4,
+    "fields": { "recipe": 4, "user": 1 }
+  },
+  {
+    "model": "tastevineapi.favorite",
+    "pk": 5,
+    "fields": { "recipe": 5, "user": 1 }
+  }
+]
