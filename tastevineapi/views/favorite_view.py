@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from rest_framework.viewsets import ViewSet
 from tastevineapi.models import Favorite, Recipe
 from .category_view import CategorySerializer
+from .recipe_view import RecipeUserSerializer
 
 class FavoriteView(ViewSet):
     """Favorite view set"""
@@ -16,7 +17,7 @@ class FavoriteView(ViewSet):
         """
         try:
             favorites = Favorite.objects.filter(user=request.auth.user)
-            serializer = FavoriteSerializer(favorites, many=True)
+            serializer = FavoriteSerializer(favorites, many=True, context= {"request": request})
             return Response(serializer.data, status=status.HTTP_200_OK)
         except Exception as ex:
             return HttpResponseServerError(ex)
@@ -24,6 +25,7 @@ class FavoriteView(ViewSet):
 class RecipeFavoriteSerializer(serializers.ModelSerializer):
     """JSON serializer for recipes"""
     categories = CategorySerializer(many=True)
+    author = RecipeUserSerializer(many=False)
 
     class Meta:
         model = Recipe
