@@ -13,3 +13,4 @@ python3 manage.py loaddata recipes
 python3 manage.py loaddata recipecategories
 python3 manage.py loaddata recipeingredients
 python3 manage.py loaddata favorites
+python3 manage.py loaddata notes

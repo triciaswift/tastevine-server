@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 class Recipe(models.Model):
     title = models.CharField(max_length=250)
-    instructions = models.CharField(max_length=300)
+    instructions = models.CharField(max_length=500)
     image = models.ImageField(upload_to='tastevineimages', height_field=None, width_field=None, max_length=None, null=True)
     publication_date = models.DateField(auto_now_add=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='recipes')
