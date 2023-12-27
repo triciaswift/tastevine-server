@@ -14,3 +14,5 @@ python3 manage.py loaddata recipecategories
 python3 manage.py loaddata recipeingredients
 python3 manage.py loaddata favorites
 python3 manage.py loaddata notes
+python3 manage.py loaddata grocerylist
+python3 manage.py loaddata grocerylistitem

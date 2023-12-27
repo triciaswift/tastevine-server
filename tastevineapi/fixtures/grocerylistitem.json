@@ -1,0 +1,11 @@
+[
+  {
+    "model": "tastevineapi.grocerylistitem",
+    "pk": 1,
+    "fields": {
+      "grocery_list": 1,
+      "ingredient": 5,
+      "checked": false
+    }
+  }
+]
