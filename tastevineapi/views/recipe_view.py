@@ -174,9 +174,14 @@ class RecipeView(ViewSet):
 
 class RecipeUserSerializer(serializers.ModelSerializer):
     """JSON serializer for user"""
+    full_name = serializers.SerializerMethodField()
+
+    def get_full_name(self, obj):
+        return f"{obj.first_name} {obj.last_name[0].upper()}" if obj.last_name else obj.first_name
+
     class Meta:
         model = User
-        fields = ('id', 'first_name',)
+        fields = ('id', 'full_name',)
 
 class RecipeSerializer(serializers.ModelSerializer):
     """JSON serializer for recipe"""
