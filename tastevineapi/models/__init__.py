@@ -5,3 +5,5 @@ from .recipe_ingredient import RecipeIngredient
 from. recipe import Recipe
 from .favorite import Favorite
 from .note import Note
+from .grocery_list import GroceryList
+from .grocery_list_item import GroceryListItem
