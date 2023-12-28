@@ -13,7 +13,7 @@ class GroceryListSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = GroceryList
-        fields = ( 'id', 'user', 'created_on', 'groceries', )
+        fields = ( 'id', 'groceries', )
 
 
 class GroceryListView(ViewSet):
@@ -29,6 +29,8 @@ class GroceryListView(ViewSet):
             grocery_list = GroceryList.objects.get(user=request.auth.user)
             serializer = GroceryListSerializer(grocery_list, many=False)
             return Response(serializer.data, status=status.HTTP_200_OK)
+        except GroceryList.DoesNotExist as ex:
+            return Response({'message': ex.args[0], 'status': 404}, status=status.HTTP_404_NOT_FOUND)
         except Exception as ex:
             return HttpResponseServerError(ex)
 
