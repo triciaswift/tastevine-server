@@ -3,14 +3,15 @@ from rest_framework import serializers, status
 from rest_framework.response import Response
 from rest_framework.viewsets import ViewSet
 from django.db.models.functions import Lower
-from tastevineapi.models import Ingredient
+from tastevineapi.models import Ingredient, GroceryCategory
+from .grocery_category_view import GroceryCategorySerializer
 
 class IngredientSerializer(serializers.ModelSerializer):
     """JSON serializer for ingredient"""
 
     class Meta:
         model = Ingredient
-        fields = ('id', 'name',)
+        fields = ('id', 'name', 'grocery_category')
 
 
 class IngredientView(ViewSet):
@@ -35,8 +36,11 @@ class IngredientView(ViewSet):
         Returns:
             Response -- JSON serialized instance
         """
+        grocery_category = GroceryCategory.objects.get(pk=request.data["grocery_category"])
+
         ingredient = Ingredient()
         ingredient.name = request.data["name"]
+        ingredient.grocery_category = grocery_category
 
         try:
             ingredient.save()

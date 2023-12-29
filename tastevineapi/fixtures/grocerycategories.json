@@ -1,0 +1,114 @@
+[
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 1,
+    "fields": {
+      "category": "PRODUCE"
+    }
+  },
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 2,
+    "fields": {
+      "category": "BREAD/BAKERY"
+    }
+  },
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 3,
+    "fields": {
+      "category": "BREAKFAST"
+    }
+  },
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 4,
+    "fields": {
+      "category": "MEAT/SEAFOOD"
+    }
+  },
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 5,
+    "fields": {
+      "category": "DAIRY"
+    }
+  },
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 6,
+    "fields": {
+      "category": "DELI"
+    }
+  },
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 7,
+    "fields": {
+      "category": "CANNED GOODS"
+    }
+  },
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 8,
+    "fields": {
+      "category": "BAKING"
+    }
+  },
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 9,
+    "fields": {
+      "category": "DRY GOODS"
+    }
+  },
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 10,
+    "fields": {
+      "category": "OILS"
+    }
+  },
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 11,
+    "fields": {
+      "category": "CONDIMENTS/SAUCES"
+    }
+  },
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 12,
+    "fields": {
+      "category": "SPICES"
+    }
+  },
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 13,
+    "fields": {
+      "category": "SNACKS"
+    }
+  },
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 14,
+    "fields": {
+      "category": "FROZEN"
+    }
+  },
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 15,
+    "fields": {
+      "category": "NUTS/DRIED FRUIT"
+    }
+  },
+  {
+    "model": "tastevineapi.grocerycategory",
+    "pk": 16,
+    "fields": {
+      "category": "ALCOHOL"
+    }
+  }
+]

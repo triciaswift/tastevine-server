@@ -5,7 +5,7 @@ from rest_framework.viewsets import ViewSet
 from tastevineapi.models import Category
 
 class CategorySerializer(serializers.ModelSerializer):
-    """JSON serializer for ingredient"""
+    """JSON serializer for categories"""
 
     class Meta:
         model = Category

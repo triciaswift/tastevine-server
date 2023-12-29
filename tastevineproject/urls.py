@@ -1,5 +1,5 @@
 from django.urls import include, path
-from tastevineapi.views import UserViewSet, RecipeView, IngredientView, CategoryView, FavoriteView, NoteView, GroceryListItemView, GroceryListView
+from tastevineapi.views import UserViewSet, RecipeView, IngredientView, CategoryView, FavoriteView, NoteView, GroceryListItemView, GroceryListView, GroceryCategoryView
 from rest_framework import routers
 from django.conf.urls.static import static
 from . import settings
@@ -13,6 +13,7 @@ router.register(r"favorites", FavoriteView, "favorite")
 router.register(r"notes", NoteView, "note")
 router.register(r"grocery-list-items", GroceryListItemView, "grocery-list-item")
 router.register(r"groceries", GroceryListView, "grocerylist")
+router.register(r"grocery-categories", GroceryCategoryView, "grocery-category")
 
 
 urlpatterns = [
