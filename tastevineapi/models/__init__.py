@@ -7,3 +7,4 @@ from .favorite import Favorite
 from .note import Note
 from .grocery_list import GroceryList
 from .grocery_list_item import GroceryListItem
+from .grocery_category import GroceryCategory

@@ -3,553 +3,632 @@
     "model": "tastevineapi.ingredient",
     "pk": 1,
     "fields": {
-      "name": "pumpkin puree"
+      "name": "pumpkin puree",
+      "grocery_category": 8
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 2,
     "fields": {
-      "name": "brown sugar"
+      "name": "brown sugar",
+      "grocery_category": 8
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 3,
     "fields": {
-      "name": "canola oil"
+      "name": "canola oil",
+      "grocery_category": 10
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 4,
     "fields": {
-      "name": "maple syrup"
+      "name": "maple syrup",
+      "grocery_category": 11
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 5,
     "fields": {
-      "name": "whole milk"
+      "name": "whole milk",
+      "grocery_category": 5
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 6,
     "fields": {
-      "name": "flour"
+      "name": "flour",
+      "grocery_category": 8
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 7,
     "fields": {
-      "name": "baking soda"
+      "name": "baking soda",
+      "grocery_category": 8
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 8,
     "fields": {
-      "name": "baking powder"
+      "name": "baking powder",
+      "grocery_category": 8
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 9,
     "fields": {
-      "name": "salt"
+      "name": "salt",
+      "grocery_category": 12
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 10,
     "fields": {
-      "name": "cinnamon"
+      "name": "cinnamon",
+      "grocery_category": 12
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 11,
     "fields": {
-      "name": "nutmeg"
+      "name": "nutmeg",
+      "grocery_category": 12
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 12,
     "fields": {
-      "name": "cloves"
+      "name": "cloves",
+      "grocery_category": 12
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 13,
     "fields": {
-      "name": "ground ginger"
+      "name": "ground ginger",
+      "grocery_category": 12
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 14,
     "fields": {
-      "name": "cold butter"
+      "name": "cold butter",
+      "grocery_category": 5
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 15,
     "fields": {
-      "name": "Kings Hawaiian Rolls"
+      "name": "Kings Hawaiian Rolls",
+      "grocery_category": 2
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 16,
     "fields": {
-      "name": "deli meat"
+      "name": "deli meat",
+      "grocery_category": 6
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 17,
     "fields": {
-      "name": "swiss cheese, grated"
+      "name": "swiss cheese, grated",
+      "grocery_category": 5
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 18,
     "fields": {
-      "name": "butter"
+      "name": "butter",
+      "grocery_category": 5
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 19,
     "fields": {
-      "name": "honey mustard"
+      "name": "honey mustard",
+      "grocery_category": 11
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 20,
     "fields": {
-      "name": "dried parsley"
+      "name": "dried parsley",
+      "grocery_category": 12
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 21,
     "fields": {
-      "name": "garlic powder"
+      "name": "garlic powder",
+      "grocery_category": 12
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 22,
     "fields": {
-      "name": "onion powder"
+      "name": "onion powder",
+      "grocery_category": 12
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 23,
     "fields": {
-      "name": "Kerrygold salted butter"
+      "name": "Kerrygold salted butter",
+      "grocery_category": 5
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 24,
     "fields": {
-      "name": "sugar"
+      "name": "sugar",
+      "grocery_category": 8
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 25,
     "fields": {
-      "name": "eggs"
+      "name": "eggs",
+      "grocery_category": 5
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 26,
     "fields": {
-      "name": "vanilla extract"
+      "name": "vanilla extract",
+      "grocery_category": 8
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 27,
     "fields": {
-      "name": "fine sea salt"
+      "name": "fine sea salt",
+      "grocery_category": 12
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 28,
     "fields": {
-      "name": "Heath milk chocolate toffee bits"
+      "name": "Heath milk chocolate toffee bits",
+      "grocery_category": 8
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 29,
     "fields": {
-      "name": "flaky salt"
+      "name": "flaky salt",
+      "grocery_category": 12
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 30,
     "fields": {
-      "name": "light brown sugar"
+      "name": "light brown sugar",
+      "grocery_category": 8
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 31,
     "fields": {
-      "name": "pear slices"
+      "name": "pear slices",
+      "grocery_category": 1
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 32,
     "fields": {
-      "name": "goat cheese"
+      "name": "goat cheese",
+      "grocery_category": 6
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 33,
     "fields": {
-      "name": "cream cheese"
+      "name": "cream cheese",
+      "grocery_category": 5
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 34,
     "fields": {
-      "name": "pomegranate seeds"
+      "name": "pomegranate seeds",
+      "grocery_category": 1
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 35,
     "fields": {
-      "name": "prosciutto"
+      "name": "prosciutto",
+      "grocery_category": 6
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 36,
     "fields": {
-      "name": "Raisin Rosemary Crisps"
+      "name": "Raisin Rosemary Crisps",
+      "grocery_category": 2
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 37,
     "fields": {
-      "name": "fig jam"
+      "name": "fig jam",
+      "grocery_category": 11
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 38,
     "fields": {
-      "name": "olive oil"
+      "name": "olive oil",
+      "grocery_category": 10
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 39,
     "fields": {
-      "name": "garlic"
+      "name": "garlic",
+      "grocery_category": 1
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 40,
     "fields": {
-      "name": "Yukon gold potatoes"
+      "name": "Yukon gold potatoes",
+      "grocery_category": 1
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 41,
     "fields": {
-      "name": "pepper"
+      "name": "pepper",
+      "grocery_category": 12
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 42,
     "fields": {
-      "name": "red pepper flakes"
+      "name": "red pepper flakes",
+      "grocery_category": 12
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 43,
     "fields": {
-      "name": "yellow onion"
+      "name": "yellow onion",
+      "grocery_category": 1
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 44,
     "fields": {
-      "name": "salted butter"
+      "name": "salted butter",
+      "grocery_category": 5
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 45,
     "fields": {
-      "name": "heavy whipping cream"
+      "name": "heavy whipping cream",
+      "grocery_category": 5
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 46,
     "fields": {
-      "name": "Better than Bouillon chicken base"
+      "name": "Better than Bouillon chicken base",
+      "grocery_category": 7
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 47,
     "fields": {
-      "name": "sour cream"
+      "name": "sour cream",
+      "grocery_category": 5
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 48,
     "fields": {
-      "name": "grated parmesan cheese"
+      "name": "grated parmesan cheese",
+      "grocery_category": 5
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 49,
     "fields": {
-      "name": "rotisserie chicken"
+      "name": "rotisserie chicken",
+      "grocery_category": 6
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 50,
     "fields": {
-      "name": "red onion"
+      "name": "red onion",
+      "grocery_category": 1
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 51,
     "fields": {
-      "name": "red bell pepper"
+      "name": "red bell pepper",
+      "grocery_category": 1
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 52,
     "fields": {
-      "name": "jalapeno"
+      "name": "jalapeno",
+      "grocery_category": 1
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 53,
     "fields": {
-      "name": "corn"
+      "name": "corn",
+      "grocery_category": 1
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 54,
     "fields": {
-      "name": "chicken stock"
+      "name": "chicken stock",
+      "grocery_category": 7
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 55,
     "fields": {
-      "name": "chicken bouillon granules"
+      "name": "chicken bouillon granules",
+      "grocery_category": 7
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 56,
     "fields": {
-      "name": "ancho chili powder"
+      "name": "ancho chili powder",
+      "grocery_category": 12
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 57,
     "fields": {
-      "name": "cumin"
+      "name": "cumin",
+      "grocery_category": 12
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 58,
     "fields": {
-      "name": "paprika"
+      "name": "paprika",
+      "grocery_category": 12
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 59,
     "fields": {
-      "name": "spinach"
+      "name": "spinach",
+      "grocery_category": 1
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 60,
     "fields": {
-      "name": "salsa"
+      "name": "salsa",
+      "grocery_category": 11
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 61,
     "fields": {
-      "name": "black beans"
+      "name": "black beans",
+      "grocery_category": 7
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 62,
     "fields": {
-      "name": "avocado"
+      "name": "avocado",
+      "grocery_category": 1
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 63,
     "fields": {
-      "name": "flour tortillas"
+      "name": "flour tortillas",
+      "grocery_category": 2
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 64,
     "fields": {
-      "name": "shredded mexican cheese"
+      "name": "shredded mexican cheese",
+      "grocery_category": 5
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 65,
     "fields": {
-      "name": "boneless skinless chicken thighs"
+      "name": "boneless skinless chicken thighs",
+      "grocery_category": 4
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 66,
     "fields": {
-      "name": "Good Season's Zesty Italian dressing mix"
+      "name": "Good Season's Zesty Italian dressing mix",
+      "grocery_category": 11
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 67,
     "fields": {
-      "name": "shallots"
+      "name": "shallots",
+      "grocery_category": 1
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 68,
     "fields": {
-      "name": "dry white wine"
+      "name": "dry white wine",
+      "grocery_category": 16
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 69,
     "fields": {
-      "name": "sundried tomatoes"
+      "name": "sundried tomatoes",
+      "grocery_category": 7
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 70,
     "fields": {
-      "name": "bacon"
+      "name": "bacon",
+      "grocery_category": 4
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 71,
     "fields": {
-      "name": "petite diced tomatoes"
+      "name": "petite diced tomatoes",
+      "grocery_category": 7
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 72,
     "fields": {
-      "name": "large shrimp"
+      "name": "large shrimp",
+      "grocery_category": 4
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 73,
     "fields": {
-      "name": "green onions"
+      "name": "green onions",
+      "grocery_category": 1
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 74,
     "fields": {
-      "name": "grits"
+      "name": "grits",
+      "grocery_category": 3
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 75,
     "fields": {
-      "name": "polenta"
+      "name": "polenta",
+      "grocery_category": 9
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 76,
     "fields": {
-      "name": "sesame oil"
+      "name": "sesame oil",
+      "grocery_category": 10
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 77,
     "fields": {
-      "name": "low sodium soy sauce"
+      "name": "low sodium soy sauce",
+      "grocery_category": 11
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 78,
     "fields": {
-      "name": "rice vinegar"
+      "name": "rice vinegar",
+      "grocery_category": 10
     }
   },
   {
     "model": "tastevineapi.ingredient",
     "pk": 79,
     "fields": {
-      "name": "chili paste"
+      "name": "chili paste",
+      "grocery_category": 11
     }
   }
 ]
