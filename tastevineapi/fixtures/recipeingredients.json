@@ -92,62 +92,32 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 18,
-    "fields": {
-      "recipe": 2,
-      "ingredient": 15,
-      "quantity": "1",
-      "unit": "pack"
-    }
+    "fields": { "recipe": 2, "ingredient": 15, "quantity": "1", "unit": "pack" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 19,
-    "fields": {
-      "recipe": 2,
-      "ingredient": 16,
-      "quantity": "1",
-      "unit": "lb"
-    }
+    "fields": { "recipe": 2, "ingredient": 16, "quantity": "1", "unit": "lb" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 20,
-    "fields": {
-      "recipe": 2,
-      "ingredient": 17,
-      "quantity": "12",
-      "unit": "oz"
-    }
+    "fields": { "recipe": 2, "ingredient": 17, "quantity": "12", "unit": "oz" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 21,
-    "fields": {
-      "recipe": 2,
-      "ingredient": 18,
-      "quantity": "4",
-      "unit": "TB"
-    }
+    "fields": { "recipe": 2, "ingredient": 18, "quantity": "4", "unit": "TB" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 22,
-    "fields": {
-      "recipe": 2,
-      "ingredient": 19,
-      "quantity": "1",
-      "unit": "TB"
-    }
+    "fields": { "recipe": 2, "ingredient": 19, "quantity": "1", "unit": "TB" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 23,
-    "fields": {
-      "recipe": 2,
-      "ingredient": 20,
-      "quantity": "1",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 2, "ingredient": 20, "quantity": "1", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -172,152 +142,77 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 26,
-    "fields": {
-      "recipe": 3,
-      "ingredient": 23,
-      "quantity": "1",
-      "unit": "c"
-    }
+    "fields": { "recipe": 3, "ingredient": 23, "quantity": "1", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 27,
-    "fields": {
-      "recipe": 3,
-      "ingredient": 24,
-      "quantity": "1",
-      "unit": "c"
-    }
+    "fields": { "recipe": 3, "ingredient": 24, "quantity": "1", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 28,
-    "fields": {
-      "recipe": 3,
-      "ingredient": 30,
-      "quantity": "1",
-      "unit": "c"
-    }
+    "fields": { "recipe": 3, "ingredient": 30, "quantity": "1", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 29,
-    "fields": {
-      "recipe": 3,
-      "ingredient": 25,
-      "quantity": "2",
-      "unit": ""
-    }
+    "fields": { "recipe": 3, "ingredient": 25, "quantity": "2", "unit": "" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 30,
-    "fields": {
-      "recipe": 3,
-      "ingredient": 26,
-      "quantity": "2",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 3, "ingredient": 26, "quantity": "2", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 31,
-    "fields": {
-      "recipe": 3,
-      "ingredient": 6,
-      "quantity": "3",
-      "unit": "c"
-    }
+    "fields": { "recipe": 3, "ingredient": 6, "quantity": "3", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 32,
-    "fields": {
-      "recipe": 3,
-      "ingredient": 7,
-      "quantity": "1",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 3, "ingredient": 7, "quantity": "1", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 33,
-    "fields": {
-      "recipe": 3,
-      "ingredient": 8,
-      "quantity": "1/2",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 3, "ingredient": 8, "quantity": "1/2", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 34,
-    "fields": {
-      "recipe": 3,
-      "ingredient": 27,
-      "quantity": "1",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 3, "ingredient": 27, "quantity": "1", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 35,
-    "fields": {
-      "recipe": 3,
-      "ingredient": 28,
-      "quantity": "2",
-      "unit": "c"
-    }
+    "fields": { "recipe": 3, "ingredient": 28, "quantity": "2", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 36,
-    "fields": {
-      "recipe": 3,
-      "ingredient": 29,
-      "quantity": "",
-      "unit": ""
-    }
+    "fields": { "recipe": 3, "ingredient": 29, "quantity": "", "unit": "" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 37,
-    "fields": {
-      "recipe": 4,
-      "ingredient": 32,
-      "quantity": "10",
-      "unit": "oz"
-    }
+    "fields": { "recipe": 4, "ingredient": 32, "quantity": "10", "unit": "oz" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 38,
-    "fields": {
-      "recipe": 4,
-      "ingredient": 33,
-      "quantity": "6",
-      "unit": "oz"
-    }
+    "fields": { "recipe": 4, "ingredient": 33, "quantity": "6", "unit": "oz" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 39,
-    "fields": {
-      "recipe": 4,
-      "ingredient": 26,
-      "quantity": "1",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 4, "ingredient": 26, "quantity": "1", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 40,
-    "fields": {
-      "recipe": 4,
-      "ingredient": 4,
-      "quantity": "1",
-      "unit": "tbsp"
-    }
+    "fields": { "recipe": 4, "ingredient": 4, "quantity": "1", "unit": "tbsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -332,72 +227,37 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 42,
-    "fields": {
-      "recipe": 4,
-      "ingredient": 34,
-      "quantity": "",
-      "unit": ""
-    }
+    "fields": { "recipe": 4, "ingredient": 34, "quantity": "", "unit": "" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 43,
-    "fields": {
-      "recipe": 4,
-      "ingredient": 31,
-      "quantity": "",
-      "unit": ""
-    }
+    "fields": { "recipe": 4, "ingredient": 31, "quantity": "", "unit": "" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 44,
-    "fields": {
-      "recipe": 4,
-      "ingredient": 36,
-      "quantity": "",
-      "unit": ""
-    }
+    "fields": { "recipe": 4, "ingredient": 36, "quantity": "", "unit": "" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 45,
-    "fields": {
-      "recipe": 4,
-      "ingredient": 35,
-      "quantity": "",
-      "unit": ""
-    }
+    "fields": { "recipe": 4, "ingredient": 35, "quantity": "", "unit": "" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 46,
-    "fields": {
-      "recipe": 5,
-      "ingredient": 40,
-      "quantity": "5",
-      "unit": "lbs"
-    }
+    "fields": { "recipe": 5, "ingredient": 40, "quantity": "5", "unit": "lbs" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 47,
-    "fields": {
-      "recipe": 5,
-      "ingredient": 7,
-      "quantity": "3/4",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 5, "ingredient": 7, "quantity": "3/4", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 48,
-    "fields": {
-      "recipe": 5,
-      "ingredient": 38,
-      "quantity": "1/2",
-      "unit": "c"
-    }
+    "fields": { "recipe": 5, "ingredient": 38, "quantity": "1/2", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -412,42 +272,22 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 50,
-    "fields": {
-      "recipe": 5,
-      "ingredient": 42,
-      "quantity": "1",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 5, "ingredient": 42, "quantity": "1", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 51,
-    "fields": {
-      "recipe": 5,
-      "ingredient": 9,
-      "quantity": "",
-      "unit": ""
-    }
+    "fields": { "recipe": 5, "ingredient": 9, "quantity": "", "unit": "" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 52,
-    "fields": {
-      "recipe": 5,
-      "ingredient": 41,
-      "quantity": "",
-      "unit": ""
-    }
+    "fields": { "recipe": 5, "ingredient": 41, "quantity": "", "unit": "" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 53,
-    "fields": {
-      "recipe": 6,
-      "ingredient": 40,
-      "quantity": "5",
-      "unit": "lbs"
-    }
+    "fields": { "recipe": 6, "ingredient": 40, "quantity": "5", "unit": "lbs" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -462,82 +302,42 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 55,
-    "fields": {
-      "recipe": 6,
-      "ingredient": 44,
-      "quantity": "2",
-      "unit": "tbsp"
-    }
+    "fields": { "recipe": 6, "ingredient": 44, "quantity": "2", "unit": "tbsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 56,
-    "fields": {
-      "recipe": 6,
-      "ingredient": 38,
-      "quantity": "1",
-      "unit": "tbsp"
-    }
+    "fields": { "recipe": 6, "ingredient": 38, "quantity": "1", "unit": "tbsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 57,
-    "fields": {
-      "recipe": 6,
-      "ingredient": 33,
-      "quantity": "6",
-      "unit": "oz"
-    }
+    "fields": { "recipe": 6, "ingredient": 33, "quantity": "6", "unit": "oz" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 58,
-    "fields": {
-      "recipe": 6,
-      "ingredient": 45,
-      "quantity": "5",
-      "unit": "tbsp"
-    }
+    "fields": { "recipe": 6, "ingredient": 45, "quantity": "5", "unit": "tbsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 59,
-    "fields": {
-      "recipe": 6,
-      "ingredient": 46,
-      "quantity": "1",
-      "unit": "tbsp"
-    }
+    "fields": { "recipe": 6, "ingredient": 46, "quantity": "1", "unit": "tbsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 60,
-    "fields": {
-      "recipe": 6,
-      "ingredient": 47,
-      "quantity": "1/3",
-      "unit": "c"
-    }
+    "fields": { "recipe": 6, "ingredient": 47, "quantity": "1/3", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 61,
-    "fields": {
-      "recipe": 6,
-      "ingredient": 48,
-      "quantity": "1/3",
-      "unit": "c"
-    }
+    "fields": { "recipe": 6, "ingredient": 48, "quantity": "1/3", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 62,
-    "fields": {
-      "recipe": 6,
-      "ingredient": 9,
-      "quantity": "1",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 6, "ingredient": 9, "quantity": "1", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -612,102 +412,52 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 70,
-    "fields": {
-      "recipe": 7,
-      "ingredient": 54,
-      "quantity": "1",
-      "unit": "c"
-    }
+    "fields": { "recipe": 7, "ingredient": 54, "quantity": "1", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 71,
-    "fields": {
-      "recipe": 7,
-      "ingredient": 55,
-      "quantity": "2",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 7, "ingredient": 55, "quantity": "2", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 72,
-    "fields": {
-      "recipe": 7,
-      "ingredient": 56,
-      "quantity": "1",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 7, "ingredient": 56, "quantity": "1", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 73,
-    "fields": {
-      "recipe": 7,
-      "ingredient": 21,
-      "quantity": "3",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 7, "ingredient": 21, "quantity": "3", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 74,
-    "fields": {
-      "recipe": 7,
-      "ingredient": 9,
-      "quantity": "3",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 7, "ingredient": 9, "quantity": "3", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 75,
-    "fields": {
-      "recipe": 7,
-      "ingredient": 41,
-      "quantity": "1",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 7, "ingredient": 41, "quantity": "1", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 76,
-    "fields": {
-      "recipe": 7,
-      "ingredient": 57,
-      "quantity": "3",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 7, "ingredient": 57, "quantity": "3", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 77,
-    "fields": {
-      "recipe": 7,
-      "ingredient": 58,
-      "quantity": "1",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 7, "ingredient": 58, "quantity": "1", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 78,
-    "fields": {
-      "recipe": 7,
-      "ingredient": 60,
-      "quantity": "1/2",
-      "unit": "c"
-    }
+    "fields": { "recipe": 7, "ingredient": 60, "quantity": "1/2", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 79,
-    "fields": {
-      "recipe": 7,
-      "ingredient": 61,
-      "quantity": "1/3",
-      "unit": "c"
-    }
+    "fields": { "recipe": 7, "ingredient": 61, "quantity": "1/3", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -722,42 +472,22 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 81,
-    "fields": {
-      "recipe": 7,
-      "ingredient": 63,
-      "quantity": "",
-      "unit": ""
-    }
+    "fields": { "recipe": 7, "ingredient": 63, "quantity": "", "unit": "" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 82,
-    "fields": {
-      "recipe": 7,
-      "ingredient": 64,
-      "quantity": "",
-      "unit": ""
-    }
+    "fields": { "recipe": 7, "ingredient": 64, "quantity": "", "unit": "" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 83,
-    "fields": {
-      "recipe": 8,
-      "ingredient": 65,
-      "quantity": "2",
-      "unit": "lbs"
-    }
+    "fields": { "recipe": 8, "ingredient": 65, "quantity": "2", "unit": "lbs" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 84,
-    "fields": {
-      "recipe": 8,
-      "ingredient": 38,
-      "quantity": "",
-      "unit": ""
-    }
+    "fields": { "recipe": 8, "ingredient": 38, "quantity": "", "unit": "" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -772,12 +502,7 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 86,
-    "fields": {
-      "recipe": 8,
-      "ingredient": 44,
-      "quantity": "2",
-      "unit": "tbsp"
-    }
+    "fields": { "recipe": 8, "ingredient": 44, "quantity": "2", "unit": "tbsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -802,52 +527,27 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 89,
-    "fields": {
-      "recipe": 8,
-      "ingredient": 69,
-      "quantity": "1/3",
-      "unit": "c"
-    }
+    "fields": { "recipe": 8, "ingredient": 69, "quantity": "1/3", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 90,
-    "fields": {
-      "recipe": 8,
-      "ingredient": 54,
-      "quantity": "1",
-      "unit": "c"
-    }
+    "fields": { "recipe": 8, "ingredient": 54, "quantity": "1", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 91,
-    "fields": {
-      "recipe": 8,
-      "ingredient": 45,
-      "quantity": "2",
-      "unit": "c"
-    }
+    "fields": { "recipe": 8, "ingredient": 45, "quantity": "2", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 92,
-    "fields": {
-      "recipe": 8,
-      "ingredient": 64,
-      "quantity": "1/3",
-      "unit": "c"
-    }
+    "fields": { "recipe": 8, "ingredient": 64, "quantity": "1/3", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 93,
-    "fields": {
-      "recipe": 8,
-      "ingredient": 9,
-      "quantity": "1",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 8, "ingredient": 9, "quantity": "1", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -872,12 +572,7 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 96,
-    "fields": {
-      "recipe": 8,
-      "ingredient": 69,
-      "quantity": "1/2",
-      "unit": "c"
-    }
+    "fields": { "recipe": 8, "ingredient": 69, "quantity": "1/2", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -892,12 +587,7 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 98,
-    "fields": {
-      "recipe": 9,
-      "ingredient": 70,
-      "quantity": "1",
-      "unit": "lb"
-    }
+    "fields": { "recipe": 9, "ingredient": 70, "quantity": "1", "unit": "lb" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -932,22 +622,12 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 102,
-    "fields": {
-      "recipe": 9,
-      "ingredient": 71,
-      "quantity": "1",
-      "unit": "can"
-    }
+    "fields": { "recipe": 9, "ingredient": 71, "quantity": "1", "unit": "can" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 103,
-    "fields": {
-      "recipe": 9,
-      "ingredient": 68,
-      "quantity": "1/4",
-      "unit": "c"
-    }
+    "fields": { "recipe": 9, "ingredient": 68, "quantity": "1/4", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -972,32 +652,17 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 106,
-    "fields": {
-      "recipe": 9,
-      "ingredient": 41,
-      "quantity": "1",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 9, "ingredient": 41, "quantity": "1", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 107,
-    "fields": {
-      "recipe": 9,
-      "ingredient": 42,
-      "quantity": "1",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 9, "ingredient": 42, "quantity": "1", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 108,
-    "fields": {
-      "recipe": 9,
-      "ingredient": 72,
-      "quantity": "2",
-      "unit": "lbs"
-    }
+    "fields": { "recipe": 9, "ingredient": 72, "quantity": "2", "unit": "lbs" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -1022,12 +687,7 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 111,
-    "fields": {
-      "recipe": 10,
-      "ingredient": 38,
-      "quantity": "",
-      "unit": ""
-    }
+    "fields": { "recipe": 10, "ingredient": 38, "quantity": "", "unit": "" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -1052,12 +712,7 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 114,
-    "fields": {
-      "recipe": 10,
-      "ingredient": 77,
-      "quantity": "3/4",
-      "unit": "c"
-    }
+    "fields": { "recipe": 10, "ingredient": 77, "quantity": "3/4", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -1072,22 +727,12 @@
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 116,
-    "fields": {
-      "recipe": 10,
-      "ingredient": 2,
-      "quantity": "1",
-      "unit": "c"
-    }
+    "fields": { "recipe": 10, "ingredient": 2, "quantity": "1", "unit": "c" }
   },
   {
     "model": "tastevineapi.recipeingredient",
     "pk": 117,
-    "fields": {
-      "recipe": 10,
-      "ingredient": 13,
-      "quantity": "1",
-      "unit": "tsp"
-    }
+    "fields": { "recipe": 10, "ingredient": 13, "quantity": "1", "unit": "tsp" }
   },
   {
     "model": "tastevineapi.recipeingredient",
@@ -1108,5 +753,1055 @@
       "quantity": "1",
       "unit": "tbsp"
     }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 120,
+    "fields": { "recipe": 11, "ingredient": 9, "quantity": "4", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 121,
+    "fields": { "recipe": 11, "ingredient": 80, "quantity": "5-6", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 122,
+    "fields": { "recipe": 11, "ingredient": 81, "quantity": "18", "unit": "oz" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 123,
+    "fields": { "recipe": 11, "ingredient": 82, "quantity": "1", "unit": "lb" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 124,
+    "fields": { "recipe": 11, "ingredient": 83, "quantity": "8", "unit": "oz" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 125,
+    "fields": {
+      "recipe": 11,
+      "ingredient": 84,
+      "quantity": "1/2",
+      "unit": "can"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 126,
+    "fields": { "recipe": 11, "ingredient": 21, "quantity": "3", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 127,
+    "fields": { "recipe": 11, "ingredient": 22, "quantity": "3", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 128,
+    "fields": { "recipe": 11, "ingredient": 85, "quantity": "3", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 129,
+    "fields": { "recipe": 11, "ingredient": 86, "quantity": "1/2", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 130,
+    "fields": { "recipe": 11, "ingredient": 38, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 131,
+    "fields": {
+      "recipe": 11,
+      "ingredient": 39,
+      "quantity": "4",
+      "unit": "cloves miced"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 132,
+    "fields": {
+      "recipe": 11,
+      "ingredient": 41,
+      "quantity": "1 1/2",
+      "unit": "tsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 133,
+    "fields": {
+      "recipe": 11,
+      "ingredient": 43,
+      "quantity": "1",
+      "unit": "diced"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 134,
+    "fields": {
+      "recipe": 11,
+      "ingredient": 46,
+      "quantity": "1",
+      "unit": "tbsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 135,
+    "fields": {
+      "recipe": 11,
+      "ingredient": 52,
+      "quantity": "1",
+      "unit": "diced"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 136,
+    "fields": {
+      "recipe": 11,
+      "ingredient": 54,
+      "quantity": "2 1/2",
+      "unit": "c"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 137,
+    "fields": { "recipe": 11, "ingredient": 56, "quantity": "3", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 138,
+    "fields": { "recipe": 11, "ingredient": 57, "quantity": "3", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 139,
+    "fields": {
+      "recipe": 11,
+      "ingredient": 58,
+      "quantity": "1 1/2",
+      "unit": "tsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 140,
+    "fields": { "recipe": 12, "ingredient": 2, "quantity": "1/2", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 141,
+    "fields": { "recipe": 12, "ingredient": 71, "quantity": "1", "unit": "can" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 142,
+    "fields": { "recipe": 12, "ingredient": 9, "quantity": "1", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 143,
+    "fields": { "recipe": 12, "ingredient": 87, "quantity": "3", "unit": "lbs" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 144,
+    "fields": { "recipe": 12, "ingredient": 88, "quantity": "2", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 145,
+    "fields": { "recipe": 12, "ingredient": 89, "quantity": "1", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 146,
+    "fields": {
+      "recipe": 12,
+      "ingredient": 90,
+      "quantity": "1 1/2",
+      "unit": "tsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 147,
+    "fields": {
+      "recipe": 12,
+      "ingredient": 91,
+      "quantity": "1",
+      "unit": "tbsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 148,
+    "fields": { "recipe": 12, "ingredient": 92, "quantity": "1", "unit": "can" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 149,
+    "fields": { "recipe": 12, "ingredient": 95, "quantity": "12", "unit": "oz" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 150,
+    "fields": { "recipe": 12, "ingredient": 96, "quantity": "28", "unit": "oz" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 151,
+    "fields": { "recipe": 12, "ingredient": 97, "quantity": "6", "unit": "oz" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 152,
+    "fields": { "recipe": 12, "ingredient": 98, "quantity": "1", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 153,
+    "fields": { "recipe": 12, "ingredient": 99, "quantity": "1", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 154,
+    "fields": {
+      "recipe": 12,
+      "ingredient": 39,
+      "quantity": "4",
+      "unit": "cloves minced"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 155,
+    "fields": { "recipe": 12, "ingredient": 43, "quantity": "2", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 156,
+    "fields": {
+      "recipe": 13,
+      "ingredient": 48,
+      "quantity": "1 1/2",
+      "unit": "c"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 157,
+    "fields": {
+      "recipe": 13,
+      "ingredient": 23,
+      "quantity": "8",
+      "unit": "tbsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 158,
+    "fields": {
+      "recipe": 13,
+      "ingredient": 39,
+      "quantity": "3",
+      "unit": "cloves minced"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 159,
+    "fields": {
+      "recipe": 13,
+      "ingredient": 41,
+      "quantity": "1/2",
+      "unit": "tsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 160,
+    "fields": { "recipe": 13, "ingredient": 45, "quantity": "2", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 161,
+    "fields": { "recipe": 14, "ingredient": 33, "quantity": "4", "unit": "oz" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 162,
+    "fields": {
+      "recipe": 14,
+      "ingredient": 100,
+      "quantity": "1",
+      "unit": "18.4 oz"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 163,
+    "fields": { "recipe": 14, "ingredient": 101, "quantity": "1", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 164,
+    "fields": { "recipe": 14, "ingredient": 102, "quantity": "1", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 165,
+    "fields": {
+      "recipe": 14,
+      "ingredient": 103,
+      "quantity": "1",
+      "unit": "can"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 166,
+    "fields": { "recipe": 14, "ingredient": 25, "quantity": "1", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 167,
+    "fields": {
+      "recipe": 14,
+      "ingredient": 44,
+      "quantity": "4",
+      "unit": "tbsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 168,
+    "fields": {
+      "recipe": 15,
+      "ingredient": 39,
+      "quantity": "3",
+      "unit": "cloves minced"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 169,
+    "fields": {
+      "recipe": 15,
+      "ingredient": 104,
+      "quantity": "1/2",
+      "unit": "c"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 170,
+    "fields": { "recipe": 15, "ingredient": 73, "quantity": "1/2", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 171,
+    "fields": {
+      "recipe": 15,
+      "ingredient": 72,
+      "quantity": "1-2",
+      "unit": "lbs"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 172,
+    "fields": {
+      "recipe": 15,
+      "ingredient": 9,
+      "quantity": "1/2",
+      "unit": "tsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 173,
+    "fields": { "recipe": 15, "ingredient": 71, "quantity": "1", "unit": "can" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 174,
+    "fields": { "recipe": 15, "ingredient": 45, "quantity": "1", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 175,
+    "fields": {
+      "recipe": 15,
+      "ingredient": 41,
+      "quantity": "1/2",
+      "unit": "tsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 176,
+    "fields": {
+      "recipe": 15,
+      "ingredient": 105,
+      "quantity": "1 1/2",
+      "unit": "tbsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 177,
+    "fields": { "recipe": 15, "ingredient": 48, "quantity": "1", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 178,
+    "fields": {
+      "recipe": 15,
+      "ingredient": 106,
+      "quantity": "1/4",
+      "unit": "tsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 179,
+    "fields": { "recipe": 15, "ingredient": 54, "quantity": "1/2", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 180,
+    "fields": {
+      "recipe": 15,
+      "ingredient": 23,
+      "quantity": "8",
+      "unit": "tbsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 181,
+    "fields": {
+      "recipe": 16,
+      "ingredient": 9,
+      "quantity": "1 1/2",
+      "unit": "tsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 182,
+    "fields": { "recipe": 16, "ingredient": 41, "quantity": "1", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 183,
+    "fields": {
+      "recipe": 16,
+      "ingredient": 107,
+      "quantity": "1",
+      "unit": "diced"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 184,
+    "fields": {
+      "recipe": 16,
+      "ingredient": 108,
+      "quantity": "3",
+      "unit": "chopped"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 185,
+    "fields": {
+      "recipe": 16,
+      "ingredient": 109,
+      "quantity": "1",
+      "unit": "lb cubed"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 186,
+    "fields": {
+      "recipe": 16,
+      "ingredient": 110,
+      "quantity": "2",
+      "unit": "cans"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 187,
+    "fields": {
+      "recipe": 16,
+      "ingredient": 111,
+      "quantity": "2",
+      "unit": "sleeves"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 188,
+    "fields": {
+      "recipe": 16,
+      "ingredient": 44,
+      "quantity": "13",
+      "unit": "tbsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 189,
+    "fields": {
+      "recipe": 16,
+      "ingredient": 49,
+      "quantity": "1",
+      "unit": "shredded"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 190,
+    "fields": { "recipe": 16, "ingredient": 93, "quantity": "3", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 191,
+    "fields": {
+      "recipe": 17,
+      "ingredient": 101,
+      "quantity": "2 1/2",
+      "unit": "c"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 192,
+    "fields": { "recipe": 17, "ingredient": 6, "quantity": "2", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 193,
+    "fields": {
+      "recipe": 17,
+      "ingredient": 102,
+      "quantity": "1 1/2",
+      "unit": "c"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 194,
+    "fields": { "recipe": 17, "ingredient": 8, "quantity": "2", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 195,
+    "fields": { "recipe": 17, "ingredient": 9, "quantity": "1", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 196,
+    "fields": {
+      "recipe": 17,
+      "ingredient": 112,
+      "quantity": "1/4 c",
+      "unit": "+ 1 tbsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 197,
+    "fields": {
+      "recipe": 17,
+      "ingredient": 23,
+      "quantity": "20",
+      "unit": "tbsp softened"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 198,
+    "fields": {
+      "recipe": 17,
+      "ingredient": 24,
+      "quantity": "1 1/3",
+      "unit": "c"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 199,
+    "fields": { "recipe": 17, "ingredient": 25, "quantity": "4", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 200,
+    "fields": { "recipe": 17, "ingredient": 26, "quantity": "4", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 201,
+    "fields": { "recipe": 17, "ingredient": 91, "quantity": "1/2", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 202,
+    "fields": {
+      "recipe": 17,
+      "ingredient": 30,
+      "quantity": "1",
+      "unit": "c packed"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 203,
+    "fields": { "recipe": 18, "ingredient": 64, "quantity": "16", "unit": "oz" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 204,
+    "fields": { "recipe": 18, "ingredient": 71, "quantity": "1", "unit": "can" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 205,
+    "fields": { "recipe": 18, "ingredient": 9, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 206,
+    "fields": { "recipe": 18, "ingredient": 80, "quantity": "3", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 207,
+    "fields": { "recipe": 18, "ingredient": 21, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 208,
+    "fields": { "recipe": 18, "ingredient": 22, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 209,
+    "fields": {
+      "recipe": 18,
+      "ingredient": 39,
+      "quantity": "6",
+      "unit": "cloves minced"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 210,
+    "fields": { "recipe": 18, "ingredient": 41, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 211,
+    "fields": {
+      "recipe": 18,
+      "ingredient": 113,
+      "quantity": "1/4 - 1/2",
+      "unit": "c"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 212,
+    "fields": { "recipe": 18, "ingredient": 50, "quantity": "1", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 213,
+    "fields": { "recipe": 18, "ingredient": 114, "quantity": "1", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 214,
+    "fields": { "recipe": 18, "ingredient": 115, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 215,
+    "fields": { "recipe": 18, "ingredient": 56, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 216,
+    "fields": { "recipe": 18, "ingredient": 57, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 217,
+    "fields": { "recipe": 18, "ingredient": 58, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 218,
+    "fields": { "recipe": 18, "ingredient": 63, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 219,
+    "fields": { "recipe": 19, "ingredient": 6, "quantity": "3", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 220,
+    "fields": { "recipe": 19, "ingredient": 7, "quantity": "1", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 221,
+    "fields": {
+      "recipe": 19,
+      "ingredient": 8,
+      "quantity": "1/2",
+      "unit": "tsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 222,
+    "fields": { "recipe": 19, "ingredient": 116, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 223,
+    "fields": { "recipe": 19, "ingredient": 23, "quantity": "1", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 224,
+    "fields": { "recipe": 19, "ingredient": 24, "quantity": "1", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 225,
+    "fields": { "recipe": 19, "ingredient": 25, "quantity": "2", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 226,
+    "fields": { "recipe": 19, "ingredient": 26, "quantity": "2", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 227,
+    "fields": { "recipe": 19, "ingredient": 27, "quantity": "1", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 228,
+    "fields": { "recipe": 19, "ingredient": 29, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 229,
+    "fields": { "recipe": 19, "ingredient": 30, "quantity": "1", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 230,
+    "fields": { "recipe": 20, "ingredient": 33, "quantity": "4", "unit": "oz" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 231,
+    "fields": {
+      "recipe": 20,
+      "ingredient": 39,
+      "quantity": "4",
+      "unit": "cloves mined"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 232,
+    "fields": { "recipe": 20, "ingredient": 41, "quantity": "1", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 233,
+    "fields": { "recipe": 20, "ingredient": 42, "quantity": "1", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 234,
+    "fields": {
+      "recipe": 20,
+      "ingredient": 43,
+      "quantity": "1",
+      "unit": "diced medium"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 235,
+    "fields": { "recipe": 20, "ingredient": 45, "quantity": "3", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 236,
+    "fields": { "recipe": 20, "ingredient": 48, "quantity": "1/2", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 237,
+    "fields": {
+      "recipe": 20,
+      "ingredient": 119,
+      "quantity": "2",
+      "unit": "tsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 238,
+    "fields": {
+      "recipe": 20,
+      "ingredient": 117,
+      "quantity": "32",
+      "unit": "oz"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 239,
+    "fields": { "recipe": 20, "ingredient": 118, "quantity": "1", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 240,
+    "fields": {
+      "recipe": 20,
+      "ingredient": 23,
+      "quantity": "4",
+      "unit": "tbsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 241,
+    "fields": { "recipe": 21, "ingredient": 9, "quantity": "3", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 242,
+    "fields": { "recipe": 21, "ingredient": 83, "quantity": "4", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 243,
+    "fields": { "recipe": 21, "ingredient": 21, "quantity": "3", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 244,
+    "fields": { "recipe": 21, "ingredient": 22, "quantity": "2", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 245,
+    "fields": {
+      "recipe": 21,
+      "ingredient": 120,
+      "quantity": "20-25",
+      "unit": ""
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 246,
+    "fields": { "recipe": 21, "ingredient": 57, "quantity": "3", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 247,
+    "fields": {
+      "recipe": 21,
+      "ingredient": 39,
+      "quantity": "4",
+      "unit": "cloves minced"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 248,
+    "fields": {
+      "recipe": 21,
+      "ingredient": 41,
+      "quantity": "1 1/2",
+      "unit": "tsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 249,
+    "fields": {
+      "recipe": 21,
+      "ingredient": 107,
+      "quantity": "1",
+      "unit": "diced"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 250,
+    "fields": {
+      "recipe": 21,
+      "ingredient": 49,
+      "quantity": "",
+      "unit": "shredded"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 251,
+    "fields": { "recipe": 21, "ingredient": 114, "quantity": "1", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 252,
+    "fields": { "recipe": 21, "ingredient": 51, "quantity": "1/2", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 253,
+    "fields": { "recipe": 21, "ingredient": 56, "quantity": "2", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 254,
+    "fields": { "recipe": 21, "ingredient": 121, "quantity": "4", "unit": "oz" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 255,
+    "fields": { "recipe": 21, "ingredient": 122, "quantity": "1", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 256,
+    "fields": {
+      "recipe": 21,
+      "ingredient": 123,
+      "quantity": "3",
+      "unit": "tbsp chopped"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 257,
+    "fields": { "recipe": 21, "ingredient": 124, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 258,
+    "fields": { "recipe": 22, "ingredient": 128, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 259,
+    "fields": { "recipe": 22, "ingredient": 126, "quantity": "1/4", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 260,
+    "fields": { "recipe": 22, "ingredient": 41, "quantity": "1", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 261,
+    "fields": { "recipe": 22, "ingredient": 9, "quantity": "2", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 262,
+    "fields": { "recipe": 22, "ingredient": 47, "quantity": "1/2", "unit": "c" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 263,
+    "fields": {
+      "recipe": 22,
+      "ingredient": 18,
+      "quantity": "4",
+      "unit": "tbsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 264,
+    "fields": { "recipe": 22, "ingredient": 63, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 265,
+    "fields": {
+      "recipe": 22,
+      "ingredient": 53,
+      "quantity": "4",
+      "unit": "ears"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 266,
+    "fields": {
+      "recipe": 22,
+      "ingredient": 21,
+      "quantity": "1/2",
+      "unit": "tsp"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 267,
+    "fields": { "recipe": 22, "ingredient": 24, "quantity": "2", "unit": "tsp" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 268,
+    "fields": { "recipe": 22, "ingredient": 90, "quantity": "", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 269,
+    "fields": {
+      "recipe": 22,
+      "ingredient": 125,
+      "quantity": "2",
+      "unit": "bags"
+    }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 270,
+    "fields": { "recipe": 22, "ingredient": 62, "quantity": "1", "unit": "" }
+  },
+  {
+    "model": "tastevineapi.recipeingredient",
+    "pk": 271,
+    "fields": { "recipe": 22, "ingredient": 127, "quantity": "", "unit": "" }
   }
 ]

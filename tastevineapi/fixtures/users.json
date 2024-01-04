@@ -106,5 +106,23 @@
       "groups": [],
       "user_permissions": []
     }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$QW1JbghcvoFYjaASAafMTS$OsuOSo0V3u7oIgjLiz1tZGlViJwQOVaRFWa4JCrfVpw=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nathan@chevalier.com",
+      "first_name": "Nathan",
+      "last_name": "Chevalier",
+      "email": "nathan@chevalier.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-01-04T02:38:53.796Z",
+      "groups": [],
+      "user_permissions": []
+    }
   }
 ]
