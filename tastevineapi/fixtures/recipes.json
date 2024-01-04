@@ -108,5 +108,137 @@
       "publication_date": "2023-06-28",
       "author": 4
     }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 11,
+    "fields": {
+      "title": "Arroz Con Pollo",
+      "instructions": "1. In a crockpot add the evaporated milk, velveeta queso blanco, monterey jack cheese, jalapeno, and rotel tomatoes\n2. Cook the queso for 90 minutes on low heat\n3. Cook yellow onion in oil over medium heat for 10 minutes \n4. Add minced garlic and cook for 2 minutes more\n5. Add chicken stock, tomato sauce, Better than bullion chicken base, and 1 tsp salt. Whisk and bring to a boil.\n6. Add Minute rice, stir, cover, and turn the heat off\n7. Trim and pound chicken breasts, towel dry and season liberally on both sides with garlic powder, cumin, remaining salt, onion powder, ancho chili powder, black pepper and paprika\n8. Cook for 7-8 minutes per side based on thickness in oil just a hair under medium heat\n9. Fluff your rice after 20 minutes\n10. Cook the chicken once it's rested for 10 minutes\n11. Lay on a bed of rice and ladle queso on top",
+      "image": "tastevineimages/11-26eaee03-b631-4499-a84d-4aaad56f8976.jpeg",
+      "publication_date": "2024-01-02",
+      "author": 1
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 12,
+    "fields": {
+      "title": "Award Winning Chili",
+      "instructions": "1. Cook ground chuck and strain the fat out of the meat\n2. Dice yellow onions and throw in the pot to soften along with meat and minced garlic\n3. Cook until onions are translucent\n4. Add the rest of the ingredients to the pot (except the kidney beans)\n5. Stir and cover for 1 hour\n6. Add kidney beans, stir, cover and let cook for 2 more hours\n7. Stir occasionally\n8. When finished add your favorite toppings",
+      "image": "tastevineimages/12-085136a3-0fc6-48ba-aa76-2697a1f99d94.jpeg",
+      "publication_date": "2024-01-04",
+      "author": 1
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 13,
+    "fields": {
+      "title": "Fettuccine Alfredo",
+      "instructions": "1. Melt butter just under medium heat. Add minced garlic and cook for 3 minutes. Stir often and make sure the garlic doesn't brown.\n2. Add heavy whipping cream. Whisk until the butter and cream come together. It will seem like they repel each other but keep whisking.\n3. Once blended let thicken for about 10 minutes. Whisking often. Add grated parmesan cheese and black pepper. Whisk and let cook until all the cheese has melted, about 5 minutes.\n4. Prepare fettuccini noodles to al dente, strain and serve.",
+      "image": "tastevineimages/13-5615e1cd-82d2-4ffd-b8d7-b3084a141968.jpeg",
+      "publication_date": "2024-01-04",
+      "author": 1
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 14,
+    "fields": {
+      "title": "Brownie Buckeye Cookies",
+      "instructions": "1. Preheat oven to 350 degrees\n2. To a bowl add brownie mix, melted butter, softened cream cheese and an egg. Mix by hand until everything is incorporated. Set aside.\n3. To a separate bowl mix the powdered sugar and peanut butter together by hand until incorporated.\n4. Scoop rounded tablespoons of the brownie dough and form a ball. Place on parchment lined sheet pans. Smooth out the edges of each cookie and place a thumb print in the middle of each one.\n5. Scoop 1/2 tablespoons of the peanut fudge mixture and form a ball. Place one peanut butter ball in the divot of each cookie. Flatten it down a little.\n6. Bake on 350 for 11 minutes.\n7. Let rest on the sheet pans on the counter until they completely cool to room temperature.\n8. Spread on a thin layer of canned fudge icing.",
+      "image": "tastevineimages/14-e0e6aab0-ba2c-4bea-9f71-ecfd24176c28.jpeg",
+      "publication_date": "2024-01-04",
+      "author": 1
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 15,
+    "fields": {
+      "title": "Cajun Shrimp Pasta",
+      "instructions": "1. Thaw shrimp.\n2. Melt butter over medium heat. Add garlic. Stir with a wooden spoon. Cook 1 minute.\n3. Add strained petite diced tomatoes to the pan. Cook 10 minutes. Smash tomatoes with your wooden spoon once softened.\n4. Add chicken stock, clam juice, green onions and seasoning. Mix. Simmer for 5 minutes.\n5. Add raw shrimp. Mix. Once they're pink add heavy whipping cream. Cook 1 minute.\n6. Add grated parmesan cheese. Stir and allow to thicken for a few minutes.\n7. Ladle over linguine noodles and serve with a side of crusty bread.",
+      "image": "tastevineimages/15-d6678044-608b-4426-ac96-c4ba743bea97.jpeg",
+      "publication_date": "2024-01-04",
+      "author": 1
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 16,
+    "fields": {
+      "title": "Cheesy Chicken & Broccoli Casserole",
+      "instructions": "1. Crush the Ritz crackers and mix with 5 tbsp of melted butter\n2. Cube 1 stick of butter and combine with the rest of the ingredients in a deep casserole dish\n3. Top with the crackers mixture\n4. Bake at 350 for 45 min or until it's hot and the topping is golden brown.",
+      "image": "tastevineimages/16-c562b858-c6af-42e1-b8b0-8b69dd408064.jpeg",
+      "publication_date": "2024-01-04",
+      "author": 7
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 17,
+    "fields": {
+      "title": "Peanut Butter Sheet Pan Brownies",
+      "instructions": "1. Combine 12 tbsp softened butter, light brown sugar and sugar with a hand mixer until fluffy\n2. Add smooth peanut butter and mix again\n3. Add eggs and 2 tsp vanilla and mix one more time\n4. In a separate bowl combine your dry ingredients (flour, baking powder and salt)\n5. Mix in the dry ingredients, batter will be pretty thick\n6. Line a 18 by 13  sheet pan with parchment paper and spread the brownie mixture on top \n7. Bake at 350 for 19 min or until a toothpick comes out clean\n8. Beat 1 stick softened butter in a large bowl then sift in the powdered sugar and cocoa powder\n9. Pour in 2 tsp of vanilla and warm milk\n10. Beat until silky smooth\n11. Spread the icing on the cooled sheet pan and cut into squares and enjoy or put in the fridge for later",
+      "image": "tastevineimages/17-88abbdfa-33d6-4973-b7fc-f7050546c647.jpeg",
+      "publication_date": "2024-01-04",
+      "author": 7
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 18,
+    "fields": {
+      "title": "Cheesy Chicken Enchiladas",
+      "instructions": "1. Trim and pound chicken so it's even thickness on all sides. Pat dry. Season liberally with all seasonings listed. No need to measure.\n2. Set a pan a hair under medium heat. Preheat olive oil for 3-4 minutes and cook chicken breasts for 8 minutes per side. Let rest for 10 minutes then shred.\n3. To the same pan the chicken cooked in add some more oil and soften a diced purple onion for 10 minutes. Add minced garlic and cook 2 minutes more.\n4. Pour in chipotle sauce, petite diced tomatoes, shredded chicken and a cup of frozen corn. Mix and cook for 5 minutes.\n5. Microwave tortillas so they're pliable.\n6. Add about 1/2 C filling to each tortilla on the bottom side of the tortilla (not in the middle). Fold in the sides first, then start at the bottom where the filling is and and roll up, holding the sides in the entire time.\n7. Place enchiladas in a 9x13 pan and cover with all of the shredded cheese.\n8. Bake at 350 until the cheese is melted. Broil at the end for more color.\n9. Warm canned enchilada sauce in a saucepan over medium heat until heated through. Ladle over individual servings of the enchiladas for those that want it.\n10. Garnish with cilantro",
+      "image": "tastevineimages/18-46f2aeca-53c8-4b6e-892f-54490e1a5b35.jpeg",
+      "publication_date": "2024-01-04",
+      "author": 5
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 19,
+    "fields": {
+      "title": "Chocolate Chipless Cookies",
+      "instructions": "1. Preheat oven to 375 degrees.\n2. To a bowl sift flour, baking powder, baking soda and sea salt. Set aside.\n3. To a bowl or stand mixer cream together softened butter and sugar until fluffy.\n4. Add eggs and vanilla and continue mixing until everything is combined.\n5. Slowly add the dry ingredients to the wet ingredients. Mix until everything is incorporated.\n6. Scoop dough with a traditional ice cream scoop (lever cleans out the scoop) and use the edge of the bowl to scrape the scoop to create the flat bottom of the cookie.\n7. Bake cookies in rounds on a parchment lined sheet pan one batch at a time at 375 for 10 minutes.\n8. Immediately top with flaky salt when they come out of the oven. Cool to room temperature.\n9. Place chocolate chips in a glass bowl fitted over a simmering pot of water set on medium heat. Make sure the water isn't touching the bottom of the bowl. Stir occasionally until the chocolate is fully melted.\n10. Turn heat to low. Dip the bottom of the cookie in the melted chocolate and scrape excess off with the back of a table knife. You can also just spoon the chocolate on and spread out with a knife and scrape excess.\n11. Lay cookies chocolate-side up on a room temperature cookie sheet and place in the freezer for 10 minutes for the chocolate to harden.",
+      "image": "tastevineimages/19-d50446ca-9b85-4f95-9bdc-f8b71b869cca.jpeg",
+      "publication_date": "2024-01-04",
+      "author": 6
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 20,
+    "fields": {
+      "title": "Creamed Spinach",
+      "instructions": "1. Thaw frozen spinach and squeeze all the water out. Set aside.\n2. Melt butter over medium heat. Cook onion for 10 minutes, stirring often. Add garlic and cook 2 minutes more.\n3. Pour in heavy whipping cream and allow to thicken for 10 minutes, stirring often. Add cream cheese, mozzarella cheese, salt and pepper. Let fully incorporate for 5 minutes.\n4. Add parmesan cheese and that spinach. Stir well. Cook 2 minutes then add red pepper flakes. Stir once more and serve.",
+      "image": "tastevineimages/20-f25410cd-4336-4a47-a444-00130771bd41.jpeg",
+      "publication_date": "2024-01-04",
+      "author": 6
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 21,
+    "fields": {
+      "title": "Crispy Cheesy Chicken Tacos",
+      "instructions": "1. Preheat oven to 400 convection or 425 regular\n2. To a pan over medium heat with oil cook diced onion and red bell pepper for 10 minutes.\n3. Add garlic and cook 2 more minutes.\n4. Add either one 4 oz can of green chilis or one 8 oz can or original Rotel and cook for 10 minutes. If using Rotel, break down the tomatoes with a wooden spoon.\n5. Add salsa verde and all the seasoning, stir.\n6. Add frozen corn, shredded rotisserie chicken and cilantro and stir. Let cook until the corn is warmed through.\n7. Microwave white corn tortillas for one minute. Spray down both sides of each tortilla with oil and fill the top half of the taco shell with about 1/3 C of chicken filling. Top the chicken mixture with about 1/4 c shredded cheese.\n8. Fold each taco over and cook on a parchment lined baking sheet. You can fit 9-12 tacos on a single sheet pan. 9. Bake for 10 minutes.\n10. Remove the sheet pan, spray the tacos down again on the side that's facing up then flip over and put back in the oven for 8-10 more minutes.",
+      "image": "tastevineimages/21-167d2a52-8b31-4002-bef6-487323a02995.jpeg",
+      "publication_date": "2024-01-04",
+      "author": 2
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 22,
+    "fields": {
+      "title": "Crispy Fish Tacos",
+      "instructions": "1. Bake fish for 20 min then flip and cook 7 minutes more. Cut corn off 4 ears of corn. Melt butter, add corn and cook 5 minutes over medium heat. Add sugar and seasoning and cook for 10 minutes. You want the starch taste gone but you still want the corn to snap in your mouth.\n2. Mix avocado crema ingredients together. Not hard.",
+      "image": "tastevineimages/22-8f519ea2-db1c-4e3a-8753-38d3f446e533.jpeg",
+      "publication_date": "2024-01-04",
+      "author": 2
+    }
   }
 ]
