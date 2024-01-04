@@ -109,49 +109,44 @@ class RecipeView(ViewSet):
         Returns:
             Response -- JSON serialized representation of updated recipe
         """
-        try:
-            recipe = Recipe.objects.get(pk=pk)
-
-            if recipe.author.id == request.user.id:
-                if "http" in request.data["image"]:
-                    recipe.image = recipe.image
-                else:
-                    format, imgstr = request.data["image"].split(';base64,')
-                    ext = format.split('/')[-1]
-                    data = ContentFile(base64.b64decode(imgstr), name=f'{pk}-{uuid.uuid4()}.{ext}')
-                    recipe.image = data
-
-                recipe.title = request.data["title"]
-                recipe.instructions = request.data["instructions"]
-                recipe.author = request.auth.user
-                recipe.save()
-
-                #? Ingredients:
-                ingredient_data = request.data.get("ingredients", [])
-                ingredient_ids = [ingredient.get('id') for ingredient in ingredient_data]
-                recipe.ingredients.set(ingredient_ids)
-                for ingredient in ingredient_data:
-                    ingredient_measurements = RecipeIngredient.objects.get(recipe__id=recipe.id, ingredient__id=ingredient['id'])
-                    quantity = ingredient['quantity']
-                    unit = ingredient['unit']
-                    ingredient_measurements.quantity = quantity
-                    ingredient_measurements.unit = unit
-                    ingredient_measurements.save()
-
-                #? Categories:
-                category_ids = request.data.get("categories", [])
-                recipe.categories.set(category_ids)
-
-                serializer = RecipeSerializer(recipe, many=False)
-                return Response(serializer.data, status=status.HTTP_204_NO_CONTENT)
-
-            return Response({"message": "You are not the author of this recipe."}, status=status.HTTP_403_FORBIDDEN)
         
-        except Recipe.DoesNotExist:
-            return Response(None, status=status.HTTP_404_NOT_FOUND)
+        recipe = Recipe.objects.get(pk=pk)
 
-        except Exception as ex:
-            return HttpResponseServerError(ex)
+        if recipe.author.id == request.user.id:
+            if "http" in request.data["image"]:
+                recipe.image = recipe.image
+            else:
+                format, imgstr = request.data["image"].split(';base64,')
+                ext = format.split('/')[-1]
+                data = ContentFile(base64.b64decode(imgstr), name=f'{pk}-{uuid.uuid4()}.{ext}')
+                recipe.image = data
+
+            recipe.title = request.data["title"]
+            recipe.instructions = request.data["instructions"]
+            recipe.author = request.auth.user
+            recipe.save()
+
+            #? Ingredients:
+            ingredient_data = request.data.get("ingredients", [])
+            ingredient_ids = [ingredient.get('id') for ingredient in ingredient_data]
+            recipe.ingredients.set(ingredient_ids)
+            for ingredient in ingredient_data:
+                ingredient_measurements = RecipeIngredient.objects.get(recipe__id=recipe.id, ingredient__id=ingredient['id'])
+                quantity = ingredient['quantity']
+                unit = ingredient['unit']
+                ingredient_measurements.quantity = quantity
+                ingredient_measurements.unit = unit
+                ingredient_measurements.save()
+
+            #? Categories:
+            category_ids = request.data.get("categories", [])
+            recipe.categories.set(category_ids)
+
+            serializer = RecipeSerializer(recipe, many=False)
+            return Response(serializer.data, status=status.HTTP_204_NO_CONTENT)
+
+        return Response({"message": "You are not the author of this recipe."}, status=status.HTTP_403_FORBIDDEN)
+        
         
     def destroy(self, request, pk=None):
         """Handle DELETE requests for a single item
