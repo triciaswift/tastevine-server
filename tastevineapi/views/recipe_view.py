@@ -142,7 +142,7 @@ class RecipeView(ViewSet):
                 category_ids = request.data.get("categories", [])
                 recipe.categories.set(category_ids)
 
-                serializer = RecipeSerializer(recipe, many=False)
+                # serializer = RecipeSerializer(recipe, many=False)
                 return Response(None, status=status.HTTP_204_NO_CONTENT)
 
             return Response({"message": "You are not the author of this recipe."}, status=status.HTTP_403_FORBIDDEN)
