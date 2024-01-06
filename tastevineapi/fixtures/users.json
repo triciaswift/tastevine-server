@@ -124,5 +124,41 @@
       "groups": [],
       "user_permissions": []
     }
+  },
+  {
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$0ohNRQbbmxLQMYW7UAITjx$gfYugLsTT34NBLlg3rosrvPFpSjys4aVDYhE7ya12MI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "val@freeman.com",
+      "first_name": "Val",
+      "last_name": "Freeman",
+      "email": "val@freeman.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-01-05T22:19:47.489Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$dMv6ZNYxcBxssZznBhJu2A$HkbHAcoBRlEfUapoNOCCfWMNIc+eyHhIOo6O5+Dm6cc=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "luke@hardy.com",
+      "first_name": "Luke",
+      "last_name": "Hardy",
+      "email": "luke@hardy.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-01-06T01:00:32.490Z",
+      "groups": [],
+      "user_permissions": []
+    }
   }
 ]

@@ -71,11 +71,6 @@
   },
   {
     "model": "tastevineapi.recipecategory",
-    "pk": 15,
-    "fields": { "recipe": 12, "category": 5 }
-  },
-  {
-    "model": "tastevineapi.recipecategory",
     "pk": 16,
     "fields": { "recipe": 13, "category": 5 }
   },
@@ -98,11 +93,6 @@
     "model": "tastevineapi.recipecategory",
     "pk": 20,
     "fields": { "recipe": 17, "category": 6 }
-  },
-  {
-    "model": "tastevineapi.recipecategory",
-    "pk": 21,
-    "fields": { "recipe": 18, "category": 3 }
   },
   {
     "model": "tastevineapi.recipecategory",
@@ -133,5 +123,105 @@
     "model": "tastevineapi.recipecategory",
     "pk": 27,
     "fields": { "recipe": 22, "category": 3 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 28,
+    "fields": { "recipe": 12, "category": 5 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 30,
+    "fields": { "recipe": 23, "category": 5 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 31,
+    "fields": { "recipe": 24, "category": 3 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 32,
+    "fields": { "recipe": 24, "category": 5 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 33,
+    "fields": { "recipe": 25, "category": 3 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 34,
+    "fields": { "recipe": 25, "category": 5 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 35,
+    "fields": { "recipe": 26, "category": 2 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 36,
+    "fields": { "recipe": 27, "category": 1 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 37,
+    "fields": { "recipe": 28, "category": 3 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 38,
+    "fields": { "recipe": 28, "category": 5 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 41,
+    "fields": { "recipe": 30, "category": 1 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 42,
+    "fields": { "recipe": 30, "category": 4 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 43,
+    "fields": { "recipe": 31, "category": 4 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 44,
+    "fields": { "recipe": 32, "category": 3 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 45,
+    "fields": { "recipe": 32, "category": 5 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 46,
+    "fields": { "recipe": 33, "category": 1 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 47,
+    "fields": { "recipe": 34, "category": 2 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 48,
+    "fields": { "recipe": 34, "category": 6 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 49,
+    "fields": { "recipe": 35, "category": 2 }
+  },
+  {
+    "model": "tastevineapi.recipecategory",
+    "pk": 50,
+    "fields": { "recipe": 36, "category": 4 }
   }
 ]
