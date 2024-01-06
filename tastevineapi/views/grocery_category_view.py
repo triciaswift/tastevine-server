@@ -21,7 +21,7 @@ class GroceryCategoryView(ViewSet):
             Response -- JSON serialized list of grocery categories
         """
         try:
-            categories = GroceryCategory.objects.all()
+            categories = GroceryCategory.objects.all().order_by("category")
             serializer = GroceryCategorySerializer(categories, many=True)
             return Response(serializer.data, status=status.HTTP_200_OK)
         except Exception as ex:

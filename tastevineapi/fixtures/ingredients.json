@@ -650,5 +650,178 @@
     "model": "tastevineapi.ingredient",
     "pk": 128,
     "fields": { "name": "spicy mayo", "grocery_category": 11 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 129,
+    "fields": { "name": "dijon mustard", "grocery_category": 11 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 130,
+    "fields": { "name": "apple cider vinegar", "grocery_category": 10 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 131,
+    "fields": { "name": "worcestershire sauce", "grocery_category": 11 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 132,
+    "fields": { "name": "salmon filets", "grocery_category": 4 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 133,
+    "fields": { "name": "frozen peas & carrots", "grocery_category": 14 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 134,
+    "fields": { "name": "canned biscuits", "grocery_category": 8 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 135,
+    "fields": { "name": "honey", "grocery_category": 11 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 136,
+    "fields": { "name": "sweet chili sauce", "grocery_category": 11 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 137,
+    "fields": { "name": "orange zest", "grocery_category": 1 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 138,
+    "fields": { "name": "orange", "grocery_category": 1 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 139,
+    "fields": { "name": "vegetable oil", "grocery_category": 10 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 140,
+    "fields": { "name": "milk", "grocery_category": 5 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 141,
+    "fields": {
+      "name": "Garden Fresh Sweet Onion Salsa",
+      "grocery_category": 11
+    }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 142,
+    "fields": { "name": "grapes", "grocery_category": 1 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 143,
+    "fields": { "name": "balsamic vinegar", "grocery_category": 10 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 144,
+    "fields": { "name": "light olive oil", "grocery_category": 10 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 145,
+    "fields": { "name": "thyme leaves", "grocery_category": 1 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 146,
+    "fields": { "name": "fresh basil", "grocery_category": 1 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 147,
+    "fields": { "name": "cherry tomatoes", "grocery_category": 1 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 148,
+    "fields": { "name": "buratta cheese", "grocery_category": 5 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 149,
+    "fields": { "name": "french bread", "grocery_category": 2 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 150,
+    "fields": { "name": "brussels sprouts", "grocery_category": 1 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 151,
+    "fields": { "name": "mayonnaise", "grocery_category": 11 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 152,
+    "fields": { "name": "siracha", "grocery_category": 11 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 153,
+    "fields": { "name": "sweet italian sausage", "grocery_category": 4 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 154,
+    "fields": { "name": "sherry cooking wine", "grocery_category": 10 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 155,
+    "fields": { "name": "crushed tomatoes", "grocery_category": 7 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 156,
+    "fields": { "name": "italian seasoning", "grocery_category": 12 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 157,
+    "fields": { "name": "frozen tortellini", "grocery_category": 14 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 158,
+    "fields": { "name": "fresh rosemary", "grocery_category": 1 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 159,
+    "fields": { "name": "dates", "grocery_category": 1 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 160,
+    "fields": { "name": "bread flour", "grocery_category": 8 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 161,
+    "fields": { "name": "instant yeast", "grocery_category": 8 }
+  },
+  {
+    "model": "tastevineapi.ingredient",
+    "pk": 162,
+    "fields": { "name": "bananas", "grocery_category": 1 }
   }
 ]

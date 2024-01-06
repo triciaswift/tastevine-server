@@ -1,3 +1,3 @@
-UPDATE tastevineapi_ingredient
-SET name = "black pepper"
-WHERE id = 41;
+UPDATE tastevineapi_recipe
+SET publication_date = "2024-01-07"
+WHERE id = 13;

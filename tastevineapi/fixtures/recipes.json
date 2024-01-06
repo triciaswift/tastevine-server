@@ -116,7 +116,7 @@
       "title": "Arroz Con Pollo",
       "instructions": "1. In a crockpot add the evaporated milk, velveeta queso blanco, monterey jack cheese, jalapeno, and rotel tomatoes\n2. Cook the queso for 90 minutes on low heat\n3. Cook yellow onion in oil over medium heat for 10 minutes \n4. Add minced garlic and cook for 2 minutes more\n5. Add chicken stock, tomato sauce, Better than bullion chicken base, and 1 tsp salt. Whisk and bring to a boil.\n6. Add Minute rice, stir, cover, and turn the heat off\n7. Trim and pound chicken breasts, towel dry and season liberally on both sides with garlic powder, cumin, remaining salt, onion powder, ancho chili powder, black pepper and paprika\n8. Cook for 7-8 minutes per side based on thickness in oil just a hair under medium heat\n9. Fluff your rice after 20 minutes\n10. Cook the chicken once it's rested for 10 minutes\n11. Lay on a bed of rice and ladle queso on top",
       "image": "tastevineimages/11-26eaee03-b631-4499-a84d-4aaad56f8976.jpeg",
-      "publication_date": "2024-01-02",
+      "publication_date": "2024-01-07",
       "author": 1
     }
   },
@@ -127,7 +127,7 @@
       "title": "Award Winning Chili",
       "instructions": "1. Cook ground chuck and strain the fat out of the meat\n2. Dice yellow onions and throw in the pot to soften along with meat and minced garlic\n3. Cook until onions are translucent\n4. Add the rest of the ingredients to the pot (except the kidney beans)\n5. Stir and cover for 1 hour\n6. Add kidney beans, stir, cover and let cook for 2 more hours\n7. Stir occasionally\n8. When finished add your favorite toppings",
       "image": "tastevineimages/12-085136a3-0fc6-48ba-aa76-2697a1f99d94.jpeg",
-      "publication_date": "2024-01-04",
+      "publication_date": "2024-01-07",
       "author": 1
     }
   },
@@ -137,8 +137,8 @@
     "fields": {
       "title": "Fettuccine Alfredo",
       "instructions": "1. Melt butter just under medium heat. Add minced garlic and cook for 3 minutes. Stir often and make sure the garlic doesn't brown.\n2. Add heavy whipping cream. Whisk until the butter and cream come together. It will seem like they repel each other but keep whisking.\n3. Once blended let thicken for about 10 minutes. Whisking often. Add grated parmesan cheese and black pepper. Whisk and let cook until all the cheese has melted, about 5 minutes.\n4. Prepare fettuccini noodles to al dente, strain and serve.",
-      "image": "tastevineimages/13-5615e1cd-82d2-4ffd-b8d7-b3084a141968.jpeg",
-      "publication_date": "2024-01-04",
+      "image": "tastevineimages/13-87e7ce0d-5d53-45b7-839d-6d2cf65ec62b.jpeg",
+      "publication_date": "2024-01-07",
       "author": 1
     }
   },
@@ -182,7 +182,7 @@
       "title": "Peanut Butter Sheet Pan Brownies",
       "instructions": "1. Combine 12 tbsp softened butter, light brown sugar and sugar with a hand mixer until fluffy\n2. Add smooth peanut butter and mix again\n3. Add eggs and 2 tsp vanilla and mix one more time\n4. In a separate bowl combine your dry ingredients (flour, baking powder and salt)\n5. Mix in the dry ingredients, batter will be pretty thick\n6. Line a 18 by 13  sheet pan with parchment paper and spread the brownie mixture on top \n7. Bake at 350 for 19 min or until a toothpick comes out clean\n8. Beat 1 stick softened butter in a large bowl then sift in the powdered sugar and cocoa powder\n9. Pour in 2 tsp of vanilla and warm milk\n10. Beat until silky smooth\n11. Spread the icing on the cooled sheet pan and cut into squares and enjoy or put in the fridge for later",
       "image": "tastevineimages/17-88abbdfa-33d6-4973-b7fc-f7050546c647.jpeg",
-      "publication_date": "2024-01-04",
+      "publication_date": "2024-01-07",
       "author": 7
     }
   },
@@ -239,6 +239,149 @@
       "image": "tastevineimages/22-8f519ea2-db1c-4e3a-8753-38d3f446e533.jpeg",
       "publication_date": "2024-01-04",
       "author": 2
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 23,
+    "fields": {
+      "title": "Crispy Salmon with Maple Dijon Glaze",
+      "instructions": "1. Preheat oven to 450 degrees.\n2. Preheat an oven safe pan over high heat. You want that pan to get HOT. Let it preheat at least 3 minutes over high heat.\n3. If your salmon isn't already cut, cut into individual servings. Pat dry.\n4. Season salmon with salt, pepper and drizzle in olive oil and spread evenly over the flesh.\n5. Turn on your hood fan if it isn't on already.\n6. Place no more than 3 filets (depending on size, you don't want to overcrowd the pan) flesh side down into the hot pan. Cover with a splatter shield then turn heat down to medium. Don't touch the filets for 5 minutes.\n7. Add all the sauce ingredients to a saucepan set over medium heat. Whisk and allow to bubble and thicken for 6-7 minutes. It gets thicker the longer you cook it. Once it reaches your desired thickness pull it off the heat and set aside.\n8. After 5 minutes, flip the filets and place in a 450-degree oven for 2-4 minutes based on thickness.\n9. Remove pan from the oven and place filets on a baking sheet to rest. If my salmon had the skin still on it, this is when I remove it. It comes off much easier at this stage than when it's raw.\n10. Cook salmon in batches until it's all cooked. Reheat the sauce if needed.\n11. Serve salmon over white rice and ladle the sauce on top.",
+      "image": "tastevineimages/23-7a6be2f7-bcfd-4268-8546-04c174cb042e.jpeg",
+      "publication_date": "2024-01-05",
+      "author": 1
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 24,
+    "fields": {
+      "title": "Chicken Pot Pie",
+      "instructions": "1. Dice 2 onions\n2. Cook onions in melted butter over medium heat\n3. Add flour, stir and cook 2 minutes before pouring in chicken stock\n4. Turn heat to high and whisk until smooth\n5. Add better than chicken boullion base, salt and pepper\n6. Allow to thicken then add chicken and frozen veggies\n7. Stir than add some heavy whipping cream and let it heat through\n8. Ladle up, serve with a biscuit and enjoy!",
+      "image": "tastevineimages/24-7714edad-5070-41b8-bc7b-2dd445fc3106.jpeg",
+      "publication_date": "2024-01-05",
+      "author": 3
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 25,
+    "fields": {
+      "title": "Orange Chicken",
+      "instructions": "1. Cook chicken on 400 for 12 minutes or air fry\n2. Cook 2 cloves minced garlic in a tsp of sesame oil\n3. Whisk together in a separate bowl honey, low sodium soy sauce, red pepper flakes, and orange zest\n4. Add mixture to the pan along with juice from a medium orange\n5. Whisk together and stir over medium heat until it bubbles and thickens\n6. Add that crispy chicken to the pan and toss to coat\n7. Ladle over white rice and top with a little extra sauce and green onion",
+      "image": "tastevineimages/25-3cbb0bcd-e6e8-4236-b387-d6dc7dd0abc3.jpeg",
+      "publication_date": "2024-01-05",
+      "author": 3
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 26,
+    "fields": {
+      "title": "Fluffy Pancakes",
+      "instructions": "Add all the dry ingredients to a big bowl followed by all the wet ingredients. Whisk.\nPreheat a pan over medium heat. Add vegetable oil to the pan, spread out and add batter. Cook until all the batter is gone. Makes 7 medium large pancakes.",
+      "image": "tastevineimages/26-3bdb916f-b73f-4940-8644-60f31dc57b64.jpeg",
+      "publication_date": "2024-01-05",
+      "author": 4
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 27,
+    "fields": {
+      "title": "Guacamole",
+      "instructions": "1. Put avocados, lime juice, chopped cilantro, garlic powder, salt, pepper and salsa all in a bow and mix together. Make sure not to over mix.",
+      "image": "tastevineimages/27-66ddf7f5-64bb-40d3-9006-1810ed9abb8f.jpeg",
+      "publication_date": "2024-01-05",
+      "author": 4
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 28,
+    "fields": {
+      "title": "Korean Steak Tacos",
+      "instructions": "1. For the sauce, put 2 bunches cilantro leaves, 2 seeded jalapenos, 4 cloves chopped garlic, brown sugar, low sodium soy sauce, vegetable oil, sesame oil, coriander, and 2 tsp black pepper into a food processor or blender.\n2. Grill some steak and slice into bite size pieces\n3. Prepare rice and then mix in 1 bunch finely chopped cilantro leaves, juice of 1/2 a lime, salt and pepper to taste\n4. Prepare guacamole with avocados, 1 bunch chopped cilantro, juice of 1 lime, garlic powder, 1 tsp salt, 3/4 tsp pepper, and salsa\n5. Prepare corn with 12 ears of corn kernels, salted butter, 3 tsp salt, sugar and cayenne pepper\n",
+      "image": "tastevineimages/28-83c0b5ef-1e7b-4877-81ce-81aa41535e9e.jpeg",
+      "publication_date": "2024-01-05",
+      "author": 5
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 30,
+    "fields": {
+      "title": "Marinated Tomatoes",
+      "instructions": "1. For the dressing whisk together balsamic vinegar, apple cider vinegar, 1 tsp salt, honey, pepper, red pepper flakes and light olive oil until emulsifies\n2. Then add garlic, tomatoes, thyme and 1/2 tsp salt\n3. Cover and marinate for 5 hours in the fridge\n4. Toast french bread\n5. Serve over room temperature buratta and french bread",
+      "image": "tastevineimages/29-c2d59be6-0316-4bc1-87f5-755462a305fc.jpeg",
+      "publication_date": "2024-01-06",
+      "author": 5
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 31,
+    "fields": {
+      "title": "Roasted Brussels Sprouts with Bacon",
+      "instructions": "Cook off the bacon in two batches. Save the bacon fat.\nTrim and cut brussels sprouts. Halve the small to medium ones and quarter the big ones.\nPetal the onion.\nAdd brussels sprouts and onions to a big bowl and pour the rendered bacon fat over and stir. Put on a large sheet pan and season liberally with garlic powder, salt and pepper. Toss and flip the brussels sprouts on a flat side.\nBake at 425 for 25 minutes, take out and flip around and drizzle over maple syrup. Put back in the oven for another 5-10 minutes.\nFor the sriracha mayo add mayo, sriracha and garlic powder to a bowl and whisk. Drizzle over the brussels sprouts. Top with the cooked bacon. Serve hot and fresh.",
+      "image": "tastevineimages/31-6cec3df8-dcc8-458a-8905-c891891e52b9.jpeg",
+      "publication_date": "2024-01-06",
+      "author": 6
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 32,
+    "fields": {
+      "title": "Tortellini Soup",
+      "instructions": "Brown sweet Italian sausage for 15 min.\nAdd the diced onion and cook 10 min.\nAdd the minced garlic and cook 2 min more.\nThen add the crushed tomatoes, tomato paste, chicken stock and seasoning.\nStir. Cover. Simmer for 30 min.\nTurn heat to high and add the cream cheese.\nWhisk until it’s fully incorporated. Add frozen tortellini, cook 2-3 minutes.\nAdd spinach. Stir and serve.\n**test your tortellini after 2-3 min, yours may need more time but mine didn’t.**",
+      "image": "tastevineimages/32-554e0823-4a99-425f-b693-ba0563362753.jpeg",
+      "publication_date": "2024-01-06",
+      "author": 7
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 33,
+    "fields": {
+      "title": "Whipped Goat Cheese with Candied Bacon Dates",
+      "instructions": "1. Preheat oven to 400 degrees.\n2. Add the chopped bacon, 2 tbsp rosemary and dates to a parchment lined sheet pan and toss with the 2 good drizzles of honey, brown sugar and 1 tsp cayenne pepper listed under \"toppings\" ingredients.\n3. Bake in the oven until the bacon is crisp, about 12 minutes.\n4. While the toppings bake, beat together soft goat cheese, cream cheese, 2 tbsp honey, olive oil and salt. Spread evenly in an 8x8 or 9x9 dish. Set aside.\n5. To another bowl mix 1/3 C honey, 1 tbsp chopped rosemary a dash of cayenne and a dash of salt.\n6. Drizzle half the honey mixture over the whipped cheese mixture then top with all the candied bacon and dates.\n7. Drizzle the second half of the honey mixture over the candied bacon dates. \nServe with warm baguette and crackers.",
+      "image": "tastevineimages/33-575e5d67-133f-4419-9c50-5f74c54a644e.jpeg",
+      "publication_date": "2024-01-06",
+      "author": 7
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 34,
+    "fields": {
+      "title": "Cinnamon Rolls",
+      "instructions": "1. Warm milk over low medium heat until it reaches 100-110 degrees Fahrenheit. Use a thermometer to check.\n2. Add 1/3 c warm milk and instant yeast to a large mixing bowl or to a stand mixer bowl. Let the yeast activate while you make the paste.\n3. In the same pot the milk cooked in, add 1/3 c milk, 1/2 c hot tap water and 1/3 c bread flour. Turn heat to medium and whisk until a thick paste forms and the lumps are all worked out. Set aside.\n4. To the yeast and milk add the sugar, melted salted butter, egg, salt and prepared paste. Mix on low until everything is combined.\n5. Add 2/3 c bread flour a cup at a time to the mixture. Allow it to come together then switch out the paddle for the dough hook. Knead for 15 minutes.\n6. Place dough ball in a lightly greased bowl and cover for an hour in a warm dry place. I either preheat my oven to 100 degrees and turn it off once I put the bowl in the oven or I place in the microwave (off of course).\n7. Roll dough out on a floured surface to 24x15\" -- I use a measuring tape to make sure I get the size right.\n8. Spread 8 tbsp or a stick of softened kerrygold salted butter evenly over top of the dough. It needs to be extra soft but not melted.\n9. Mix brown sugar and cinnamon together in a bowl then sprinkle on top of the butter and dough evenly.\n10. Tightly roll up the dough and cut into 10-12 rolls.\n11. Place on a parchment lined sheet pan with space between each roll.\n12. Warm heavy whipping cream and pour over the rolls.\n13. Bake at 375 for 18-20 minutes.\n14. While the rolls bake, mix the icing with the whisk attachment or a hand mixer. Add cream cheese, salted butter and beat until fluffy. Add powdered sugar one cup at a time. Scrape the bowl as needed. Add the vanilla and mix until fully combined.\n15. Allow rolls to rest 5-10 minutes before slathering in icing.",
+      "image": "tastevineimages/34-bf6843d9-887c-4de1-b85d-ce327f743186.jpeg",
+      "publication_date": "2024-01-07",
+      "author": 9
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 35,
+    "fields": {
+      "title": "Banana Bread with Streusel Topping",
+      "instructions": "1. Preheat oven to 350 degrees.\n2. To a bowl make the streusel topping by cutting cold butter into the flour, brown sugar and cinnamon. Set aside.\n3. To a separate bowl add bananas and smash.\n4. Add melted salted butter, sugar, egg, vanilla and beat.\n5. Add flour, baking soda and salt and mix with a spoon just until combined.\n6. Pour in a greased loaf dish and top the batter with the streusel topping.\n7. Bake for one hour.",
+      "image": "tastevineimages/35-05f11516-7cc4-4aa2-afc5-61547461313c.jpeg",
+      "publication_date": "2024-01-06",
+      "author": 9
+    }
+  },
+  {
+    "model": "tastevineapi.recipe",
+    "pk": 36,
+    "fields": {
+      "title": "Dinner Rolls with Cinnamon Butter",
+      "instructions": "In a large bowl add instant yeast and 2/3 c warmed milk (100-110 degrees). Allow the yeast to proof while you make your paste.\nMake a paste in a medium saucepan of 1/3 C bread flour, 1/2 C hot tap water and 1/3 C 2% milk. Whisk ingredients together over medium heat until a thick paste forms. Take off the heat and set aside.\nTo the yeast and warm milk add sugar, an egg, salt, melted salted butter and the paste we made. Using a paddle attachment mix the ingredients. With the mixer on low add 3 2/3 C bread flour to the bowl one cup at a time.\nOnce the dough comes together, switch to a dough hook and knead for 15 minutes or knead by hand (with both hands) for 15 minutes. If kneading by hand, work that dough good. You should be tired after this process.\nTransfer dough to a greased bowl, cover and let rise for one hour.\nPunch the dough. And start forming your rolls. You want the dough balls to be bigger than golf balls but not quite as big as a tennis ball. I get 15 out of the recipe.\nPlace in a greased baking dish or greased baking sheets. Cover and let rise for another hour.\nOnce rolls have risen brush with egg wash and bake at 350 for 20 minutes uncovered.\nFor the cinnamon butter mix softened butter, powder sugar, honey and cinnamon together with a fork or use a hand mixer.",
+      "image": "tastevineimages/36-6bf5acdb-48a0-46e1-a8aa-ff294efd12e0.jpeg",
+      "publication_date": "2024-01-06",
+      "author": 9
     }
   }
 ]
